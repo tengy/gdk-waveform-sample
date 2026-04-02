@@ -1,0 +1,1485 @@
+INTRODUCTION TO MULTIMEDIA
+A Complete University Textbook
+─────────────────────────────────────────
+Foundations • Graphics • Color • Video • Animation • Audio • Typography • Design • Accessibility
+
+
+
+
+
+
+
+Dr. Ahmed H. Eltengy
+
+Course
+Introduction to Multimedia	Level
+Undergraduate / 1st year
+ 
+Table of Contents
+
+Chapter 1– Introduction to Multimedia	5
+1.1  What Is Multimedia?	5
+1.2  The Multimedia Production Pipeline	7
+1.3  Binary and Number Systems	7
+1.4  Digitization: Turning Analog into Digital	9
+Chapter 2 – Digital Media	11
+2.1  Digital Media Types	11
+2.2  Spatial Resolution and Pixel Grids	11
+2.3  What Are Vector Graphics?	12
+2.4  Vector Objects	13
+2.5  Vector Drawing Primitives	14
+2.6  Vector File Formats	14
+2.7  Geometric Transformations	15
+Chapter 3 – Graphics	17
+3.1  The Third Dimension	17
+3.2  The 3D Rendering Pipeline	18
+3.3  Raster Image Structure	19
+3.4  Channels	19
+3.5  Types of Resolution	20
+3.6  Resolution and File Size	21
+3.7  Why Compression Is Necessary	21
+3.8  Image File Formats	23
+3.9  Format Selection Guidelines	24
+3.10  Fundamental Image Operations	24
+Chapter 4 – Color and Science	26
+4.1  The Physics of Light and Color	26
+4.2  The Additive Color Model	27
+4.3  RGB Values and Notation	28
+4.4  Why Multiple Color Models?	28
+4.5  Color Correction Fundamentals	30
+4.6  The Color Management Problem	31
+4.7  How Video Works	32
+4.8  Color Sampling in Video	34
+4.9  Why Video Compression Is Critical	34
+4.10  Non-Linear Editing (NLE)	36
+4.11  Compositing	37
+4.12  Delivery Channels and Requirements	38
+Chapter 5 – Animation	39
+5.1  What Is Animation?	39
+5.2  Frame-by-Frame Animation	40
+5.3  Keyframe Animation	40
+5.4  Types of Interpolation	40
+5.5  Animating Vector Objects	41
+5.6  What Are Motion Graphics?	41
+5.7  Animation Delivery Formats	42
+Chapter 6 – Audio	43
+6.1  What Is Sound?	43
+6.2  The ADC Process for Audio	45
+6.3  Microphones and Audio Interfaces	46
+6.4  Audio Signal Processing	46
+6.5  Audio Compression Methods	48
+6.6  What Is MIDI?	49
+Chapter 7 – Text and Typography	50
+7.1  Text as Digital Data	50
+7.2  Type Anatomy	52
+7.3  Font Technologies	52
+7.4  Typographic Fundamentals	53
+7.5  From Text to Hypermedia	55
+7.6  Differences Between Print and Screen Typography	56
+7.7  Navigation Design Principles	57
+7.8  The World Wide Web	57
+Chapter 8 – Visual Design	59
+8.1  The Purpose of Visual Design	59
+8.2  Gestalt Psychology and Design	60
+8.3  Color in Visual Communication	61
+8.4  Grid Systems in Design	62
+Chapter 9 – Interactivity	64
+9.1  What Is Interactivity?	64
+9.2  Interactive Storytelling	65
+Chapter 10 –Accessibility	67
+10.1  Why Accessibility Matters	67
+10.2  Web Content Accessibility Guidelines (WCAG)	68
+10.3  Text Alternatives for Non-Text Content	69
+10.4  Accessible Video Production	71
+10.5  Inclusive Design Beyond Compliance	72
+10.6  Emerging Technologies	73
+10.7  Key Takeaways	74
+Glossary	75
+References and Further Reading	78
+ 
+CHAPTER 1
+Introduction to Multimedia
+Defining multimedia, its history, components, and applications in the modern world
+1.1  What Is Multimedia?
+Multimedia is the integrated use of multiple forms of media — text, graphics, audio, video, and animation — delivered through a computer or other digital device. The word itself derives from the Latin "multi" (many) and "medium" (middle, or means of communication). Unlike traditional media, which typically presents one type of content at a time, multimedia systems combine these elements into a coherent, often interactive experience.
+Digital multimedia's key distinguishing feature is integration. Encoding all media types as binary data enables the same hardware and software infrastructure to store, transmit, process, and display them. A single webpage, for instance, may contain formatted text, photographic images, embedded video, background audio, and interactive scripts — all rendered together by a web browser from a collection of digital files.
+KEY DEFINITION
+Multimedia: The integration of two or more types of media — text, images, audio, video, or animation — presented through a digital, typically interactive, system.
+
+Interactive Multimedia: Multimedia where the user controls the flow and content of the experience.
+Hypermedia: Multimedia connected by hyperlinks, enabling non-linear navigation.
+1.1.1  A Brief History of Multimedia
+The roots of multimedia stretch back further than the personal computer. Early motion pictures combined images and (eventually) sound. Television added broadcasting to the mix. But the modern concept of computer-based multimedia emerged in the 1960s and 1970s, driven by visionaries like Doug Engelbart, whose 1968 "Mother of All Demos" showed a system combining video, audio, hypertext, and real-time collaboration — ideas that would take decades to become mainstream.
+The 1980s brought the CD-ROM, which offered 650 MB of storage — enough to hold a full encyclopedia with images and audio. Apple's HyperCard (1987) gave non-programmers a way to create linked "stacks" of information cards. The early 1990s saw the rise of multimedia-capable personal computers with sound cards, CD-ROM drives, and color displays, while the World Wide Web (1991) created a global platform for hypermedia delivery.
+Era	Key Development	Impact
+1960s	Doug Engelbart's oNLine System (NLS)	First hypertext and collaborative computing demo
+1970s	Videodisc / LaserDisc technology	Interactive video training systems
+1980s	CD-ROM, HyperCard, Sound Cards	Encyclopedias, educational software on disc
+1990s	World Wide Web, MPEG video, Flash	Global multimedia delivery via internet
+2000s	YouTube, iTunes, Streaming Video	User-generated content, digital distribution
+2010s	HTML5, Mobile Multimedia, 4K video	Plugin-free web media, smartphone revolution
+2020s	WebXR, AI-generated media, 8K, VR/AR	Immersive and AI-assisted multimedia
+1.1.2  Components of a Multimedia System
+A multimedia system consists of hardware, software, and content working together. Understanding each component helps developers design systems that are effective.
+ 
+1.1.3  Applications of Multimedia
+Multimedia has penetrated virtually every sector of modern life:
+•	Education and e-Learning: Interactive courseware, simulations, MOOCs, virtual labs
+•	Entertainment: Video games, streaming services, virtual reality experiences, digital cinema
+•	Business and Marketing: Product demonstrations, digital signage, virtual meetings, presentations
+•	Healthcare: Medical imaging, patient education, surgical simulation, telemedicine
+•	Publishing: e-books, interactive magazines, online journalism with embedded media
+•	Government and Public Services: Kiosks, online portals, digital exhibits
+•	Arts and Creative Industries: Digital art, music production, film post-production
+1.2  The Multimedia Production Pipeline
+Creating multimedia content follows a structured pipeline from concept to delivery. Understanding this pipeline is essential for any multimedia professional.
+ 
+1.3  Binary and Number Systems
+Every digital multimedia system centers on a deceptively simple idea: we can represent all information — whether a photograph, a piece of music, or a video — as a sequence of 1s and 0s. This is the binary number system, and its universality makes digital multimedia possible.
+A binary digit — called a bit — can hold one of two values: 0 or 1. These correspond physically to two discrete electrical states (high/low voltage, charged/uncharged capacitor, etc.). While a single bit holds very little information, groups of bits can encode anything.
+Unit	Size	Example Capacity
+Bit (b)	1 binary digit (0 or 1)	Single on/off state
+Nibble	4 bits	One hexadecimal digit (0–F)
+Byte (B)	8 bits	One ASCII character
+Kilobyte (KB)	1,024 bytes	A short text document
+Megabyte (MB)	1,024 KB = 1,048,576 bytes	A high-resolution photograph
+Gigabyte (GB)	1,024 MB	Approximately 4–5 hours of MP3 audio
+Terabyte (TB)	1,024 GB	Hundreds of hours of HD video
+Petabyte (PB)	1,024 TB	Entire archives of large organizations
+1.3.1  Number Base Conversions
+Humans typically use base-10 (decimal), computers use base-2 (binary), and programmers often use base-16 (hexadecimal) as a convenient shorthand for binary. Understanding conversions between these systems is fundamental to working with digital data.
+
+ 
+ 
+1.3.2  Bits and Information Capacity
+The number of distinct values that n bits can represent is 2^n. This relationship is the foundation of digital data capacity:
+•	1 bit: 2 states (0 or 1 — yes/no, black/white)
+•	2 bits: 4 states (00, 01, 10, 11)
+•	8 bits (1 byte): 256 states — enough for all ASCII characters
+•	16 bits: 65,536 states — used for audio sample depth and 16-bit color channels
+•	24 bits: 16,777,216 states — "true color" with 8 bits each for red, green, and blue
+•	32 bits: over 4 billion states — used for floating-point audio and HDR color
+1.4  Digitization: Turning Analog into Digital
+The real world is analog: sound exists as continuous pressure waves, light as continuous electromagnetic radiation. Computers can only process discrete numbers. Digitization is the conversion of continuous analog signals into discrete digital data.
+All analog-to-digital conversion involves three fundamental steps: sampling, quantization, and encoding.
+ 
+Figure 1.4  The three-step process of analog-to-digital conversion.
+1.4.1  Sampling
+Sampling converts an analog signal into a digital one by measuring it at regular intervals. To reconstruct it accurately, the sampling rate must be at least twice the highest frequency 
+(Nyquist rate); otherwise, distortion (aliasing) occurs.
+NYQUIST-SHANNON SAMPLING THEOREM
+A signal can be perfectly reconstructed only if it is band-limited and sampled above twice its highest frequency must be at least twice the highest frequency component in the signal.
+
+Example: Human hearing extends to approximately 20,000 Hz (20 kHz).
+Therefore, audio must be sampled at a minimum of 40,000 Hz (40 kHz).
+CD audio uses 44,100 Hz — slightly above the Nyquist minimum, with headroom.
+1.4.2  Quantization
+After sampling, each sample must be rounded to the nearest representable discrete value. This process is quantization, and it inevitably introduces a minor error called quantization noise or quantization error. The more bits used for each sample (the bit depth), the finer the gradations available and the lower the quantization error.
+Bit Depth	Levels	Dynamic Range (approx.)	Typical Use
+8-bit	256	48 dB	Telephone audio, old games
+16-bit	65,536	96 dB	CD audio, standard digital audio
+20-bit	1,048,576	120 dB	High-end digital mixing
+24-bit	16,777,216	144 dB	Professional audio production
+32-bit float	~4 billion+	>190 dB (floating-point)	Digital audio workstations (DAW)
+1.4.3  Data Compression Overview
+Raw digital media produces very large data sizes (e.g., audio and video can take up huge storage). Compression is used to reduce these sizes for easier storage and transmission.
+
+There are two types of compression: lossless, which keeps all original data, and lossy, which removes less important data. The choice depends on the application.
+
+LOSSLESS vs. LOSSY COMPRESSION
+LOSSLESS: Original data can be perfectly reconstructed from the compressed version.
+  • Examples: ZIP, PNG, FLAC, LZW
+  • Use when: Archiving, text, medical imaging, source files
+  • Typical ratios: 2:1 to 5:1
+
+LOSSY: Some data is permanently discarded during compression.
+  • Examples: JPEG, MP3, AAC, H.264, HEVC
+  • Use when: Web delivery, streaming, consumer distribution
+  • Typical ratios: 10:1 to 100:1 or more
+ 
+CHAPTER 2
+Digital Media
+Defining Digital Media types, Resolution and Pixel, Vector Graphics, Vector Objects, Vector Drawing, Vector File Formats, and Geometric Transformations
+2.1  Digital Media Types
+Each type of media requires a different approach to digital representation because each captures a different aspect of the physical world. Understanding these representations is essential for working effectively with multimedia.
+Media Type	Physical Phenomenon	Digital Representation	Key Parameter
+Text	Written language	Character codes (Unicode)	Character set / encoding
+Image	Light reflected from scene	Grid of colored pixels (bitmap)	Resolution, color depth
+Vector Graphic	Mathematical shapes	Mathematical equations	Precision, scalability
+Audio	Air pressure waves	Sampled amplitude values	Sample rate, bit depth
+Video	Motion / changing light	Sequence of image frames	Frame rate, resolution
+Animation	Simulated motion	Key frames + interpolation	Frame rate, duration
+3D Model	Three-dimensional object	Vertices, edges, faces	Polygon count, detail
+2.2  Spatial Resolution and Pixel Grids
+A digital image is a two-dimensional array of picture elements, or pixels. Each pixel stores color information for a tiny square region of the image. The total number of pixels determines the image's spatial resolution — its ability to represent fine detail.
+Spatial resolution is typically expressed as width × height in pixels (e.g., 1920×1080), or as pixels per inch (PPI) when a physical size is relevant. It is critical to understand that resolution is not an intrinsic property of a digital image alone. Resolution only gains meaning when you display or print the image at a specific physical size.
+ 
+  Each cell stores R,G,B color values: e.g., (255, 128, 0) = orange
+Figure 2.1  A digital image as a two-dimensional pixel grid. Each pixel stores color data.
+2.2.1  Common Image Resolutions
+Name	Resolution (px)	Total Pixels	Typical Use
+QVGA	320 × 240	76,800	Old mobile phones, thumbnails
+VGA	640 × 480	307,200	Early web images, webcams
+HD (720p)	1280 × 720	921,600	Online video, entry-level HD
+Full HD (1080p)	1920 × 1080	2,073,600 (~2MP)	Blu-ray, HDTV, standard web video
+2K / QHD	2560 × 1440	3,686,400 (~3.7MP)	High-end monitors, streaming
+4K UHD	3840 × 2160	8,294,400 (~8.3MP)	Ultra HD TV, cinema delivery
+8K UHD	7680 × 4320	33,177,600 (~33MP)	Professional cinema, future broadcast
+Print (A4 @ 300 dpi)	2480 × 3508	8,699,840 (~8.7MP)	High-quality print output
+2.3  What Are Vector Graphics?
+Vector graphics represent images using mathematical descriptions of geometric shapes rather than a grid of pixels. Instead of recording "pixel at position (100, 200) is red," a vector image stores "draw a circle with center at (100, 200), radius 50, filled with red." The computer recalculates the pixel appearance each time it needs to display the image.
+The approach offers a key benefit: mathematically defined shapes allow you to resize them to any dimension without compromising quality. A vector logo printed on a business card and on a billboard will be equally sharp. This scalability makes vector graphics ideal for logos, illustrations, icons, and technical drawings.
+VECTOR vs. BITMAP: THE CORE DIFFERENCE
+VECTOR: Image described by mathematical geometry (points, curves, shapes).
+  Resolution-independent: scales to any size without pixelation.
+  Best for: logos, icons, technical diagrams, typography, illustrations.
+  Common formats: SVG, AI (Adobe Illustrator), EPS, PDF (vector components).
+
+BITMAP (Raster): Image stored as a fixed grid of colored pixels.
+  Resolution-dependent: enlarging causes visible pixelation (aliasing).
+  Best for: photographs, scanned images, complex textures.
+  Common formats: JPEG, PNG, TIFF, GIF, BMP.
+2.4  Vector Objects
+Vector graphics are composed of objects — discrete, independently manipulable graphic elements. Each object has properties that determine its appearance and position.
+2.4.1  Points and Paths
+The most fundamental vector element is the anchor point — a position in 2D space defined by 
+(x, y) coordinates. Paths connect anchor points; these paths can be straight line segments or curves. Paths can be open (with distinct start and end points) or closed (forming a complete loop).
+Curved segments in vector graphics are most commonly described using Bézier curves, developed by French engineer Pierre Bézier in the 1960s for automotive design. 
+A set of control points: the start and end anchor points, plus defined Bézier curve additional off-curve control points that "pull" the curve into shape.
+ 
+2.4.2  Object Properties
+Every vector object has two main visual properties: fill and stroke. The fill specifies how a closed shape's interior renders (solid color, gradient, pattern, or none). The stroke determines the appearance of the path itself — its color, thickness (weight), dash pattern, and end caps.
+Property	Description	Possible Values
+Fill	Interior coloring of a closed shape	None, solid color, linear/radial gradient, pattern
+Stroke Color	Color of the path/outline	Any color value; none for invisible stroke
+Stroke Weight	Thickness of the path	In points or pixels (e.g., 0.5pt, 2px)
+Stroke Cap	Shape of open path endpoints	Butt, Round, Projecting/Square
+Stroke Join	Shape of corners where segments meet	Miter, Round, Bevel
+Dash Pattern	Pattern of dashes and gaps	Arrays of dash/gap lengths
+Opacity	Transparency of the entire object	0% (invisible) to 100% (fully opaque)
+2.5  Vector Drawing Primitives
+Most vector drawing applications provide a set of primitive shape tools as building blocks for more complex illustrations.
+Line: The simplest path: a single straight segment between two points
+Rectangle: Defined by position, width, and height; may have rounded corners
+Ellipse/Circle: Defined by center coordinates and radii (rx, ry)
+Polygon: A closed path with n straight sides
+Polyline: An open path with multiple straight segments
+Text Object: A vector object containing typographic content; can be styled and transformed
+Symbol/Group: A named, reusable collection of vector objects
+2.6  Vector File Formats
+Format	Full Name	Key Features	Primary Use
+SVG	Scalable Vector Graphics	XML-based, web-native, supports CSS/JS animation	Web graphics, icons, UI elements
+AI	Adobe Illustrator	Proprietary; layers, effects, rich typography	Professional illustration
+EPS	Encapsulated PostScript	PostScript-based; widely compatible	Legacy print and prepress
+PDF	Portable Document Format	Vector + raster hybrid; universal viewing	Documents, print-ready files
+WMF/EMF	Windows Metafile, Enhanced	Windows-native vector; limited features	Windows applications, Office
+DXF	Drawing Exchange Format	CAD/engineering vector format	Technical and architectural drawing
+2.7  Geometric Transformations
+Transformations: Mathematical operations that alter an object’s position, size, or shape. In 2D graphics, represented by 3×3 matrices using homogeneous coordinates for easy combination.
+2.7.1  Translation
+Translation: Moves an object by (tx, ty) along the x and y axes without altering its size or orientation.
+
+ 
+2.7.2  Scaling
+Scaling: Resizes an object by factors sx (horizontal) and sy (vertical). Equal factors preserve proportions; unequal factors distort them. Scaling is usually relative to the origin, or a chosen center point.
+2.7.3  Rotation
+Rotation: Turns an object by an angle (θ) around a center point. Around the origin (counterclockwise): 
+	•	x′ = x·cos(θ) − y·sin(θ)
+	•	y′ = x·sin(θ) + y·cos(θ)
+2.7.4  Shearing (Skewing)
+Shearing slants an object along one axis while the other axis remains fixed. A horizontal shear displaces points proportionally to their y-coordinate; a vertical shear displaces them proportionally to their x-coordinate. Shearing transforms rectangles into parallelograms and circles into ellipses.
+2.7.5  Reflection (Mirroring)
+Reflection creates a mirror image of an object across a specified axis. 
+Common reflections include: across the x-axis (negates y-coordinates), across the y-axis (negates x-coordinates), across the line y = x (swaps x and y), and across any arbitrary line.
+2.7.6  Combining Transformations
+Multiple transformations can be combined into a single transformation matrix by multiplying the individual matrices together. This compound transformation can then be applied to every point in an object in a single pass, which is far more efficient than applying transformations sequentially.
+
+IMPORTANT: TRANSFORMATION ORDER MATTERS
+Matrix multiplication is not commutative: A × B ≠ B × A in general.
+Therefore the ORDER in which transformations are applied matters greatly.
+
+Example: "Scale then Rotate" produces a different result than "Rotate then Scale"
+when the scaling is non-uniform (sx ≠ sy).
+
+Convention: transformations are typically applied right-to-left in the matrix product.
+T × R × S × point means: first Scale, then Rotate, then Translate.
+
+ 
+CHAPTER 3
+Graphics
+3-D Graphics, Bitmapped Images, Resolution, Image Compression, File Formats, and Image Manipulation
+3.1  The Third Dimension
+3D graphics extend 2D by adding a third dimension (z) to represent depth, placing objects in a 3D space. The major challenge is projecting this 3D scene onto a 2D screen, which is done through a series of transformations.
+3.1.1  3D Coordinate Systems
+3D graphics uses a Cartesian coordinate system with three orthogonal axes. However, two conventions exist for which direction "up" and "depth" point:
+Right-handed coordinate system: Z points toward the viewer; used in OpenGL, many 3D modeling tools (x = right, y = up, z = toward you)
+Left-handed coordinate system: Z points away from the viewer; used in Direct3D, some game engines (x = right, y = up, z = away)
+3.1.2  3D Geometry Representations
+3D objects can be represented in several ways, each with different strengths:
+Representation	How It Works	Strengths	Limitations
+Polygon Mesh	Object surface described by vertices (points), edges (lines), and faces (polygons)	Fast rendering, hardware-accelerated, widely supported	Flat polygons approximate curves; high poly counts for smooth surfaces
+NURBS	Non-Uniform Rational B-Splines: smooth surfaces defined mathematically	Mathematically precise, smooth curves/surfaces	Complex to render; must be tessellated for real-time display
+Subdivision Surfaces	Coarse mesh iteratively subdivided and smoothed	Combines mesh efficiency with smooth-surface appearance	Requires subdivision algorithm; more complex than simple meshes
+Voxels	Volume divided into 3D pixels (volume elements)	Good for volumetric data (MRI, smoke, terrain)	High memory usage; less efficient for solid objects
+Point Cloud	Object represented by millions of 3D points	Direct output of 3D scanners; captures real-world objects	No surface definition; large data sets; hard to render
+CSG	Constructive Solid Geometry: shapes combined by Boolean operations	Precise solid modeling; good for CAD	Complex to render efficiently
+3.2  The 3D Rendering Pipeline
+Rendering is the process of generating a 2D image from a 3D scene description. Modern 3D rendering follows a well-defined pipeline of transformations and calculations.
+ 
+3.2.1  Shading Models
+Shading determines how light interacts with surfaces. The choice of shading model has a major impact on both the visual quality and the computational cost of rendering.
+Flat Shading: Each polygon is rendered with a single uniform color calculated from one light direction. Fast, but produces a faceted appearance.
+Gouraud Shading: Lighting is calculated at each vertex and interpolated across the polygon surface. Smooth gradients but misses specular highlights in polygon interiors.
+Phong Shading: Normal vectors are interpolated across the polygon, and lighting is calculated per-pixel. Higher quality, capturing specular highlights correctly.
+PBR (Physically Based Rendering): Simulates real light physics using energy conservation, metalness, and roughness. Photorealistic results are used in modern game engines and VFX.
+3.2.2  Hidden Surface Removal
+Hidden Surface Removal: In 3D scenes, hidden surfaces shouldn’t be drawn. The Z-buffer algorithm stores the nearest depth per pixel to display only visible surfaces.
+3.2.3  Texturing
+Textures are 2D images mapped onto 3D surfaces to add detail without increasing polygon count. The process of mapping a 2D texture onto a 3D surface is called texture mapping, and requires UV coordinates — a 2D coordinate system (U horizontal, V vertical) that assigns each point on the 3D surface to a position in the 2D texture image.
+3.3  Raster Image Structure
+Bitmap (Raster) Image: Stores colors in a pixel grid; each pixel has (x, y) coordinates (origin at top-left). Pixels are stored in memory row by row, from top to bottom.
+3.3.1  Color Depth
+Color depth (also called bit depth) refers to the number of bits used to represent the color of each pixel. Greater bit depth allows more colors to be represented and reduces visible banding in gradients.
+Bit Depth	Colors per Channel	Total Colors	Storage per Pixel	Use Case
+1-bit	2 levels	2 (black/white)	1 bit	Text documents, fax, simple icons
+4-bit	16 levels	16	4 bits	Legacy system graphics, early GUIs
+8-bit	256 levels	256 (indexed)	8 bits (1 byte)	GIF images, indexed-color PNG
+16-bit	65,536 levels	65,536 per channel	2 bytes	Grayscale photography, HDR intermediate
+24-bit	256 per channel	16.7 million (8+8+8 RGB)	3 bytes	Standard color photography, web images
+32-bit	256 per channel + alpha	16.7M + 256 transparency	4 bytes	Images requiring transparency (PNG, PSD)
+48-bit	65,536 per channel	Trillions (16+16+16)	6 bytes	Professional photography RAW processing
+3.4  Channels
+Color Channels: Images are made of separate grayscale channels representing color components.
+	•	RGB: Red, Green, Blue
+	•	CMYK: Cyan, Magenta, Yellow, Black
+	•	RGBA: Adds alpha for transparency
+Channels allow color adjustments, selective effects, and advanced image manipulation.
+ 
+3.5  Types of Resolution
+The word "resolution" is used in different contexts in multimedia to mean different things. It is important to distinguish between these uses to avoid confusion.
+3.5.1  Spatial Resolution
+Spatial resolution: Number of pixels in each image dimension. Higher resolution = more detail and larger files.
+Image Display/Print: Apparent sharpness depends on pixels per inch (PPI):
+	•	PPI = pixels ÷ inches
+	•	Example: 600 px ÷ 2 in = 300 PPI (print-quality)
+	•	Same 600 px on 24 in screen ≈ 25 PPI (low on display).
+Context	Resolution Standard	Notes
+Web / Screen display	72–96 PPI (historically)	Modern HiDPI/Retina displays use 192–400 PPI
+Newspaper printing	85–100 LPI (lines per inch)	Coarse halftone due to newsprint absorbency
+Magazine / quality print	133–175 LPI	Requires 266–350 PPI source images
+Fine art / photo prints	200–360 PPI	Smooth tones, minimal visible dots
+Laser printer	600–1200 DPI	DPI refers to printer dot density, not image PPI
+Large-format (banner, billboard)	15–72 PPI	Low PPI acceptable; viewed from distance
+3.5.2  Temporal Resolution
+Temporal resolution refers to how often a signal is sampled over time, and is relevant for video and audio. In video, temporal resolution is the frame rate — how many still frames are displayed per second (frames per second, fps). Higher frame rates produce smoother motion.
+Frame Rate	Standard / Context	Motion Quality
+12 fps	Minimum animation	Choppy, clearly animated
+24 fps	Cinema standard (film look)	Smooth for narrative film; some motion blur
+25 fps	PAL broadcast TV (Europe)	Standard European TV
+29.97 fps	NTSC broadcast TV (USA/Japan)	Standard North American TV
+30 fps	Common web/social video	Similar to 29.97; widely supported
+48 fps	High frame rate cinema (HFR)	Very smooth; sometimes perceived as "soap opera effect"
+60 fps	Sports, gaming, fast action	Very smooth motion; preferred for games
+120 fps	High-speed capture, VR	Extremely smooth; used in VR to prevent motion sickness
+240–1000 fps	Slow-motion capture	Records fast events for slow-motion playback
+3.5.3  Tonal Resolution (Bit Depth)
+Tonal Resolution: Number of brightness levels in an image, determined by bit depth.
+	(8-bit: 256 levels (0–255), 16-bit: 65,536 levels)
+Effects: Low tonal resolution causes banding; high resolution is important for smooth gradients and heavy editing.
+3.6  Resolution and File Size
+The uncompressed file size of a raster image is directly related to its resolution and bit depth: File Size (bytes) = Width × Height × (Bit Depth / 8). This calculation gives the size before any compression is applied.
+FILE SIZE CALCULATION EXAMPLES
+Formula: File Size = Width (px) × Height (px) × Bytes Per Pixel
+
+Full HD image (1920 × 1080) at 24-bit color (3 bytes/pixel):
+  1920 × 1080 × 3 = 6,220,800 bytes ≈ 5.9 MB (uncompressed)
+
+4K image (3840 × 2160) at 24-bit color:
+  3840 × 2160 × 3 = 24,883,200 bytes ≈ 23.7 MB (uncompressed)
+
+Same 4K image at 48-bit color (6 bytes/pixel):
+  3840 × 2160 × 6 = 49,766,400 bytes ≈ 47.4 MB (uncompressed)
+3.7  Why Compression Is Necessary
+Uncompressed images use huge storage (e.g., 12 MP, 24-bit ≈ 34 MB), making large collections or online sharing impractical. Compression reduces size by exploiting:
+• Spatial redundancy: neighboring pixels are often similar
+• Perceptual redundancy: human vision is less sensitive to color detail and high-frequency patterns.
+3.7.1  Lossless Compression Techniques
+Lossless compression reduces file size without discarding any data. The original image can be perfectly reconstructed from the compressed file.
+Run-Length Encoding (RLE)
+RLE is a simple compression technique that reduces file size by replacing consecutive repeated values with a single value and its count. It works well for images with large areas of uniform color (like graphics or cartoons) but provides little benefit for highly detailed or photographic images.
+ 
+LZW and Huffman Coding
+• LZW (Lempel-Ziv-Welch): Builds a dictionary of repeated byte sequences, replacing them with shorter codes (used in GIF, TIFF).
+• Huffman Coding: Assigns shorter codes to frequent values and longer codes to rare ones.
+• Combination: Using both improves compression efficiency.
+3.7.2  Lossy Compression: JPEG
+JPEG (Joint Photographic Experts Group): is the most widely used lossy image format, and understanding its operation reveals why lossy compression works so well for photographs.
+ 
+Figure 3.4  The JPEG compression pipeline. Step 5 (quantization) is where data is permanently lost.
+JPEG Quality Setting	Approx. File Size (vs. raw)	Visual Quality	Typical Use
+100 (maximum)	~25-50% of uncompressed	Virtually indistinguishable from original	Master files, archiving
+80-90 (high)	~10-15% of uncompressed	Excellent; artifacts barely visible	Professional photography distribution
+60-70 (medium-high)	~5-8% of uncompressed	Good; minor artifacts in high-detail areas	Web photography, email sharing
+40-60 (medium)	~3-5% of uncompressed	Acceptable; visible artifacts in fine detail	Web thumbnails, previews
+10-30 (low)	~1-3% of uncompressed	Noticeable blocky artifacts (8×8 blocks visible)	Extreme compression; small file size priority
+3.8  Image File Formats
+Choosing the right file format is one of the most important practical decisions in multimedia production. The wrong format can mean poor quality, unnecessarily large file sizes, or compatibility problems.
+Format	Type	Color Depth	Compression	Best Use
+JPEG (.jpg)	Lossy raster	24-bit	DCT-based lossy	Photographs for web/print; no transparency
+PNG (.png)	Lossless raster	1–48 bit	DEFLATE (lossless)	Web graphics with transparency; icons
+GIF (.gif)	Lossless raster	8-bit (256 colors)	LZW	Simple animations; limited color images
+TIFF (.tif)	Lossless raster	Up to 64-bit	LZW/ZIP or none	Professional print, archival, prepress
+WebP (.webp)	Lossy/Lossless	24-bit + alpha	VP8-based	Web images; outperforms JPEG and PNG
+AVIF (.avif)	Lossy/Lossless	10/12-bit HDR	AV1-based	Next-gen web format; excellent compression
+HEIF/HEIC (.heic)	Lossy/Lossless	Up to 16-bit	H.265-based	Apple devices; replaces JPEG at half size
+RAW (.raw, .cr2, .arw)	Lossless/Minimal	12–16 bit	None or lossless	Digital camera originals; maximum flexibility
+PSD (.psd)	Layered raster	Up to 32-bit	RLE or ZIP	Photoshop working files with layers
+SVG (.svg)	Vector	Unlimited	Gzip (optional)	Web vector graphics; resolution-independent
+3.9  Format Selection Guidelines
+FORMAT SELECTION QUICK GUIDE
+JPEG: Photographs without transparency for web or print. Avoid for text, logos, flat graphics.
+PNG: Any image needing transparency, or lossless quality for web (screenshots, icons, UI).
+GIF: Simple animations; avoid for anything where PNG or WebP would do better.
+TIFF: Professional print workflow, master files, document scanning.
+SVG: Logos, icons, charts, any image that needs to scale perfectly.
+WebP: Modern web delivery; best balance of quality and compression for web.
+RAW: Direct from camera; use as source; always convert for delivery.
+3.10  Fundamental Image Operations
+Image manipulation encompasses a wide range of operations performed on digital images to correct problems, enhance appearance, or create entirely new visual effects. Modern image editing software — from Adobe Photoshop to open-source tools like GIMP — provides hundreds of such operations.
+3.10.1  Tonal Adjustments
+Tonal adjustments modify the brightness and contrast of an image. They are often the first step in image correction.
+Brightness/Contrast: Linear shift of all pixel values. Simple, but can clip highlights or shadows.
+Levels: Defines the white point, black point, and midpoint (gamma) of the tonal range. More precise than simple brightness.
+Curves: Maps input values to output values along an arbitrary curve. The most powerful and flexible tonal adjustments.
+Gamma Correction: Non-linear tonal adjustment that more closely matches human visual perception. Raising gamma brightens mid-tones without affecting black and white.
+3.10.2  Histograms
+A histogram is a graphical representation of the tonal distribution in an image. The x-axis represents brightness values from 0 (black) to 255 (white), and the y-axis represents the number of pixels at each brightness level. Learning to read histograms is fundamental to accurate image adjustment.
+ 
+ 
+Figure 3.5  Histogram shapes indicate exposure problems. A well-exposed image fills the range.
+3.10.3  Selection Tools
+Most image manipulation involves operating on a specific area of an image rather than the whole thing. Selection tools isolate these regions.
+Selection Tool	How It Works	Best For
+Rectangular / Elliptical Marquee	Draws geometric selection shapes	Cropping, selecting regular areas
+Lasso	Freehand drawn selection	Irregular shapes; quick rough selections
+Polygonal Lasso	Click-by-click straight-edged selection	Objects with straight edges
+Magnetic Lasso	Snaps to detected edges	Objects with clear edge contrast
+Magic Wand	Selects pixels of similar color (tolerance-based)	Solid-color backgrounds, sky selections
+Quick Selection	Paints selection; automatically expands to edges	General purpose; fast selections
+Color Range	Selects based on color sampled from image	Selecting specific colors throughout image
+Pen/Path Tool	Creates precise Bézier path, then converts to selection	Precise cutouts; professional compositing
+3.10.4  Filters and Effects
+Image filters apply mathematical operations to pixel values to achieve visual effects. They range from subtle corrections to dramatic transformations.
+Blur filters: Gaussian Blur averages pixels with neighbors weighted by a bell-curve kernel. Used for softening, depth of field, and noise reduction.
+Sharpen filters: Unsharp Mask (confusingly named) increases contrast at edges by subtracting a blurred version. Used to recover apparent sharpness.
+Noise filters: Add or reduce random pixel variations. "Add Noise" creates texture; "Reduce Noise/Median" removes sensor noise
+Distortion filters: Warp pixel positions. Includes Liquify, Warp, Lens Correction, Perspective Correction
+Artistic filters: Simulate traditional media (oil paint, watercolor, pencil sketch) or create stylized effects
+CHAPTER 4
+Color and Science
+The physics of light, RGB Color, Color Models, Channels and Color Correction, Consistent Color, Video Standards, Video Compression, Video Editing and Post-Production, and Video Delivery
+4.1  The Physics of Light and Color
+Color is not a property of objects themselves; it is a perception created by the human visual system in response to electromagnetic radiation. Understanding the physics of light is the foundation for understanding color in digital media.
+4.1.1  The Electromagnetic Spectrum
+Light is electromagnetic radiation, and visible light occupies only a tiny portion of the electromagnetic spectrum — wavelengths from approximately 380 nanometers (nm) to 700 nm. Different wavelengths of light within this range are perceived as different colors. 
+4.1.2  How We See Color
+Human Eye Receptors:
+	• Rods (~120M): Low-light vision, no color
+	• Cones (~6M): Color vision, concentrated in fovea
+	• 3 cone types: Sensitive to blue (S), green (M), red (L) wavelengths
+
+Trichromatic Vision: Humans perceive color using three cone types, so digital systems 
+(RGB, CMY) can reproduce all colors by stimulating these three channels.
+METAMERISM
+Two physically different lights can produce the same color perception if they stimulate
+the three cone types to the same degree. This phenomenon is called metamerism.
+
+This is why a computer monitor — which emits only three narrow bands of red, green,
+and blue light — can simulate the appearance of thousands of different colored objects.
+
+Warning: metameric matches may not hold under different lighting conditions.
+Colors that match under daylight may appear different under artificial lighting.
+4.2  The Additive Color Model
+RGB (Red, Green, Blue) is an additive color model used for self-luminous media — devices that emit light, such as monitors, televisions, projectors, and smartphone screens. In additive color mixing, colors are produced by combining light of different wavelengths. Adding colors together makes the result brighter.
+ 
+Figure 4.2  Additive color mixing. Combining all primaries at full intensity produces white.
+4.3  RGB Values and Notation
+In the standard 8-bit-per-channel RGB color space, each channel (Red, Green, Blue) has 256 possible values, from 0 (no contribution of that primary) to 255 (full contribution). Colors can be expressed as an ordered triplet RGB(r, g, b) or as a six-digit hexadecimal string (#RRGGBB).
+Color	RGB Notation	Hex Notation	Description
+Black	RGB(0, 0, 0)	#000000	No light from any channel
+White	RGB(255, 255, 255)	#FFFFFF	Full light from all channels
+Red	RGB(255, 0, 0)	#FF0000	Full red, no green, no blue
+Green	RGB(0, 255, 0)	#00FF00	No red, full green, no blue
+Blue	RGB(0, 0, 255)	#0000FF	No red, no green, full blue
+Yellow	RGB(255, 255, 0)	#FFFF00	Full red + full green
+Cyan	RGB(0, 255, 255)	#00FFFF	Full green + full blue
+Magenta	RGB(255, 0, 255)	#FF00FF	Full red + full blue
+Gray (50%)	RGB(128, 128, 128)	#808080	Equal amounts of all channels at half intensity
+Orange	RGB(255, 165, 0)	#FFA500	Full red, partial green, no blue
+Navy Blue	RGB(0, 0, 128)	#000080	Half-intensity blue only
+4.4  Why Multiple Color Models?
+Color Models RGB: is standard for screens, but other models exist for different purposes—based on light/ink physics, human perception, or industry needs.
+4.4.1  HSV (Hue, Saturation, Value)
+HSV/HSB: Represents color as Hue, Saturation, and Brightness, making it more intuitive for artists than RGB values.
+Hue: The color type (red, green, blue, etc.), represented as an angle from 0° to 360° on a color wheel.
+Saturation: The color’s vividness; 0% = gray, 100% = fully vivid.
+Value (Brightness): The lightness of the color; 0% = black, 100% = full brightness of the hue.
+ 
+Figure 4.3  The HSV color cylinder. Hue is angle, Saturation is radius, Value is height.
+4.4.2  HSL (Hue, Saturation, Lightness)
+HSL is similar to HSV, but it uses Lightness instead of Value. The key difference is that in HSL, 100% lightness always results in white regardless of hue and saturation, whereas in HSV, 100% value combined with 100% saturation produces a vivid, fully saturated color.
+HSL is a double-cone model: where it reaches white at high lightness levels and converges to black at low lightness levels.
+HSL is widely used in CSS and web design (e.g., hsl(120, 100%, 50%) represents pure green), as it allows designers to easily create harmonious color schemes by adjusting lightness or saturation while keeping the hue constant.
+4.4.3  CMYK (Cyan, Magenta, Yellow, Key/Black)
+CMYK: A subtractive printing model where inks absorb light (C absorbs red, M green, Y blue). Combining C+M+Y should make black but gives brown, so Black (K) ink is added for true black and efficiency.
+ 
+Figure 4.4  Subtractive color mixing (CMYK). Combining all primaries absorbs all light = black.
+4.4.4  CIE Lab Color Model
+CIE Lab Color Model: Device-independent and perceptually uniform color space.
+	•	L*: Lightness (0 = black, 100 = white)
+	•	a*: Green (−) to Red (+)
+	•	b*: Blue (−) to Yellow (+)
+
+Use: Accurate color representation across devices.
+ΔE: Measures color difference; ~1 is barely noticeable.
+Color Model	Type	Device-Dependent?	Primary Use	Gamut
+RGB	Additive	Yes (varies by display)	Screen, web, digital cameras	Display-dependent
+sRGB	Additive	Standardized	Web standard, consumer devices	Narrower than AdobeRGB
+AdobeRGB	Additive	Standardized	Professional photography, print prep	Wider than sRGB
+CMYK	Subtractive	Yes (varies by press)	Commercial printing	Narrower than sRGB in some areas
+HSV/HSB	Additive (cylindrical)	Yes (depends on RGB)	Intuitive color selection for design	Same as source RGB
+HSL	Additive (cylindrical)	Yes (depends on RGB)	Web design, CSS	Same as source RGB
+CIE Lab	Perceptual	No (device-independent)	Color management, ΔE measurement	Entire human gamut
+XYZ	Tristimulus	No (device-independent)	Color science foundation	Entire human gamut
+4.5  Color Correction Fundamentals
+Color Correction: Adjusting image colors for a desired result:
+	• Technical: Fix color casts, exposure, and accuracy
+	• Creative (grading): Apply a specific visual style.
+4.5.1  White Balance and Color Temperature
+White balance refers to the adjustment needed to make neutral white objects appear truly white in an image. Natural and artificial light sources have different color temperatures, measured in Kelvin (K). Warm light (candles, sunrise) has a low color temperature (~2000–3500K) and gives objects an orange tint. Cool light (overcast sky, shade) has a high color temperature (~6000–8000K) and gives objects a blue tint.
+Light Source	Color Temperature (K)	Color Appearance
+Candle flame	1800–2000 K	Very warm orange/yellow
+Incandescent light bulb	2700–3000 K	Warm white/yellow
+Warm fluorescent	3000–3500 K	Warm white
+Direct noon sunlight	5000–5500 K	Neutral white
+Electronic flash/strobe	5500–6500 K	Neutral to slightly cool
+Overcast/cloudy sky	6500–7500 K	Cool blue-white
+Open shade (blue sky)	7500–10000 K	Very blue/cool
+4.5.2  Channel-Based Color Correction
+Because a color image is composed of separate color channels, adjusting individual channels is a powerful way to correct color casts.
+A classic workflow: if an image has a strong blue cast (everything looks too blue), reducing the values in the Blue channel, or adding Yellow (the complement of Blue in CMY terms), will neutralize it.
+COLOR CAST DIAGNOSIS AND CORRECTION
+Identify the cast by examining the image and the histogram per channel:
+  Blue cast (cold look)   → Reduce Blue channel, or warm white balance
+  Orange/Yellow cast    → Reduce Red channel slightly, reduce Green slightly
+  Green cast                 → Reduce Green channel
+  Magenta cast             → Reduce both Red and Blue channels equally
+
+Use the gray-point eyedropper: click on something that should be neutral gray.
+The software automatically calculates the correction needed to make it gray.
+4.6  The Color Management Problem
+Color Management: Ensures consistent color across devices (monitors, printers).
+	Problem: Devices display colors differently → inconsistency
+	Solution:
+	• Profiling: Measure each device’s color behavior
+	• Device-independent space: Common reference
+	• Conversion: Translate colors between devices using profiles.
+4.6.1  ICC Color Profiles
+ICC Profile: A file describing a device’s color behavior, mapping its color values to a device-independent space (CIE XYZ or Lab). Used for monitors, cameras, scanners, printers, and color spaces like sRGB or AdobeRGB.
+ 
+Figure 4.5  Color management converts between devices via a device-independent profile connection space.
+4.6.2  Gamut
+Color Gamut: The range of colors a device can capture, display, or reproduce.
+• Different devices have different gamuts (e.g., wide-gamut monitor > sRGB monitor).
+• Visualized in CIE xy or Lab space.
+  	• Colors outside a device’s gamut cannot be accurately reproduced and require a rendering intent when converting between devices.
+Common Color Space	Gamut Coverage vs sRGB	Primary Use
+sRGB	100% (baseline)	Web, internet, consumer devices, Windows default
+AdobeRGB (1998)	~135% of sRGB volume	Professional photography, print prepress
+ProPhoto RGB	~230% of sRGB volume	Maximum camera RAW processing; very wide gamut
+DCI-P3	~125% of sRGB volume	Digital cinema, modern Apple/professional displays
+Rec. 2020	~208% of sRGB volume	4K and 8K UHD HDR television standard
+CMYK (typical offset print)	~60-70% of sRGB volume	Commercial print; some colors not printable
+4.7  How Video Works
+Video is the display of a rapid sequence of still images (frames) at a rate fast enough to create the illusion of continuous motion. This perceptual phenomenon — called persistence of vision and the phi phenomenon — allows the eye and brain to perceive smooth motion when frames are displayed at 16 fps or faster.
+Digital video is a sequence of digital still images (frames) combined with synchronized digital audio. Managing the enormous data requirements of raw video is the central challenge of the field, and the history of video standards is largely the history of addressing this challenge through technological advances in compression, storage, and transmission.
+4.7.1  Analog Broadcast Standards (Historical)
+Before digital video, three major incompatible analog broadcast television standards dominated different parts of the world. Understanding them provides context for modern digital video standards.
+Standard	Used In	Frame Rate	Lines of Resolution	Notes
+NTSC	USA, Canada, Japan, Mexico	29.97 fps	525 lines (480 visible)	National Television System Committee (1941/1953)
+PAL	UK, Europe, Australia, China	25 fps	625 lines (576 visible)	Phase Alternating Line (1967); better color than NTSC
+SECAM	France, Eastern Europe	25 fps	625 lines (576 visible)	Sequential Color with Memory; FM-based color
+4.7.2  Digital Video Standards
+Digital television (DTV) replaced analog broadcast systems worldwide, offering higher resolution, better color, and more efficient use of broadcast spectrum. Standards are defined by organizations like ATSC (North America), DVB (Europe), and ISDB (Japan/Brazil).
+Standard	Resolution	Frame Rates	Context
+SD (Standard Def.)	720×480 (NTSC) / 720×576 (PAL)	25/29.97 fps	Legacy broadcast; still used for archival
+HD 720p	1280×720	24/30/60 fps	HD broadcast; good for fast motion at 60fps
+Full HD 1080i	1920×1080 interlaced	25i/29.97i fps	Traditional HD broadcast
+Full HD 1080p	1920×1080 progressive	24/30/60 fps	Current broadcast/streaming standard
+4K UHD	3840×2160	24/25/30/60 fps	Ultra HD streaming (Netflix 4K, etc.)
+4K DCI (Cinema)	4096×2160	24/48 fps	Digital cinema projection standard
+8K UHD	7680×4320	24/60/120 fps	NHK Japan broadcast; emerging standard
+4.7.3  Interlaced vs. Progressive Scanning
+Two fundamentally different methods exist for how video frames are scanned and transmitted:  
+4.7.4  Aspect Ratios
+Aspect Ratio: The width-to-height ratio of a video frame. Common types:
+	•	4:3 (1.33:1): Classic TV/monitors
+	•	16:9 (1.78:1): Modern HDTV, YouTube, streaming
+	•	2.39:1: Cinematic widescreen (“letterbox”)
+	•	1:1: Square format, popular on social media
+	•	9:16: Vertical/portrait for mobile videos (TikTok, Stories, Shorts)
+
+4.8  Color Sampling in Video
+Video Color (YCbCr):
+•	Y: Luminance (brightness)
+•	Cb, Cr: Color difference channels (blue–luma, red–luma)
+•	Chroma subsampling: Color channels can be stored at lower resolution than luminance, since humans perceive brightness detail more than color.
+Chroma Subsampling	Description	Data Savings	Quality / Use
+4:4:4	Full resolution for Y, Cb, Cr	None	Maximum quality; RAW/professional capture
+4:2:2	Full Y; Cb and Cr at half horizontal	33% reduction	High-quality broadcast, professional cameras
+4:2:0	Full Y; Cb and Cr at half H and V	50% reduction	Consumer cameras, broadcast TV, streaming (H.264, HEVC)
+4:1:1	Full Y; Cb and Cr at 1/4 horizontal	50% reduction	DVCPRO; some legacy cameras
+
+4.9  Why Video Compression Is Critical
+Uncompressed 4K video at 30 fps with 24-bit color generates approximately 746 MB per second — nearly 45 GB per minute. Storing 2 hours of uncompressed 4K would require 2.7 TB, and streaming it would need a network connection of approximately 6 Gbps. Compression transforms these impractical numbers into manageable ones: a typical 4K streaming video uses 15–25 Mbps.
+4.9.1  Intraframe vs. Interframe Compression
+Video codecs use two fundamentally different types of compression:
+INTRAFRAME vs. INTERFRAME COMPRESSION
+INTRAFRAME (e.g., JPEG/Motion JPEG): Each frame is compressed independently.
+ Advantage: Can cut video at any frame; easier editing.
+ Disadvantage: Larger file sizes.
+ Used in: Professional editing formats (ProRes, DNxHD, DV)
+
+INTERFRAME: Frames store only the CHANGES from previous/future frames.
+ Advantage: Very high compression ratios.
+ Disadvantage: Requires decoding multiple frames to reconstruct one (harder to edit).
+ Used in: Delivery formats (H.264, HEVC, VP9, AV1)
+ 
+4.9.2  Major Video Codecs
+Codec	Year	Organization	Bitrate (1080p)	Key Application
+MPEG-1	1992	MPEG/ISO	1.5 Mbps	VCD; early internet video (largely obsolete)
+MPEG-2	1994	MPEG/ISO	3–15 Mbps	DVD, Blu-ray, broadcast HDTV
+H.264 / AVC	2003	ITU-T/MPEG	4–10 Mbps	Current universal standard; web, Blu-ray
+H.265 / HEVC	2013	ITU-T/MPEG	2–5 Mbps	4K streaming; 40-50% better than H.264
+VP9	2013	Google	2–5 Mbps	YouTube; royalty-free alternative to HEVC
+AV1	2018	Alliance for Open Media	1.5–4 Mbps	YouTube 4K; royalty-free, best compression
+H.266 / VVC	2020	ITU-T/MPEG	1–3 Mbps	Future 8K streaming; 50% better than HEVC
+Apple ProRes	2007	Apple	45–220 Mbps	Professional editing format; intraframe
+Avid DNxHD/HR	2004	Avid	36–185 Mbps	Professional editing format; intraframe
+
+ 
+4.9.3  Container Formats
+  • Codec: Compression algorithm for audio/video
+  • Container: File format that holds compressed streams plus metadata
+  • The same codec can be used in different containers.
+Container Format	Extension	Common Codecs	Use Case
+MP4 (MPEG-4 Part 14)	.mp4	H.264, H.265, AV1, AAC	Universal: web, mobile, social media
+MOV (QuickTime)	.mov	ProRes, H.264, HEVC	Apple ecosystem; professional video prod.
+MKV (Matroska)	.mkv	Any codec; very flexible	High-quality home video, archiving
+AVI (Audio Video Interleave)	.avi	DivX, Xvid, MPEG-2	Legacy Windows format; largely replaced
+WebM	.webm	VP8, VP9, AV1, Vorbis, Opus	Web browser streaming; royalty-free
+MXF (Material Exchange Format)	.mxf	MPEG-2, AVC-Intra, DNxHD	Broadcast production and archiving
+TS (Transport Stream)	.ts, .mts	MPEG-2, H.264	Broadcast transmission, Blu-ray, AVCHD
+
+4.10  Non-Linear Editing (NLE)
+Before digital editing, film was cut physically (hence "cutting a film") and video was edited by copying segments from one tape to another in sequence — a destructive, time-consuming process called linear editing.
+Non-linear editing (NLE) changed everything: digital video files on a hard drive can be accessed in any order, and edits are stored as instructions rather than physically rearranging material.
+Modern NLE software (Adobe Premiere Pro, Final Cut Pro, DaVinci Resolve, Avid Media Composer) provides a timeline-based interface where media clips are arranged, trimmed, and layered. Edits are non-destructive: the original media files are never modified.
+ 
+Figure 4.8  The NLE timeline: multiple video (V) and audio (A) tracks arranged over time.
+4.10.1  Editing Techniques
+Cut: Instantaneous switch from one clip to the next. The most common edit.
+Dissolve/Cross-fade: Gradual transition where one clip fades out as the next fades in. Indicates time passage.
+Wipe: One image pushes the other off the screen. Used sparingly; can feel dated.
+Jump cut: A cut within the same scene that jumps forward in time. Can feel jarring or can be used stylistically.
+L-cut: Audio from the next scene starts before the video cut. Creates smooth transitions.
+J-cut: Video of the next scene appears before its audio begins (audio from the previous scene continues)
+Match cut: A cut between two scenes where shapes, movements, or subjects match, creating visual continuity
+4.10.2  Color Grading
+Color grading is the creative process of adjusting the colors and tones of a video to achieve a specific visual style or mood. It typically follows color correction (ensuring accurate colors) and uses tools like:
+•	Lift, Gamma, Gain wheels — Three-way color correction wheels for shadows, mid-tones, and highlights
+•	Curves — Precise tone mapping with separate control over each color channel
+•	LUTs (Look-Up Tables) — Pre-defined color transforms applied to video; can simulate film stocks or create stylized looks
+•	Qualifiers/Keys — Select specific colors to adjust (e.g., isolate and adjust only skin tones)
+•	Power Windows/Masks — Apply corrections to specific regions of the image
+4.11  Compositing
+Compositing is the combining of multiple visual elements from different sources into a single, coherent image. It is the foundation of visual effects (VFX) work.
+4.11.1  Alpha Channels and Transparency
+Compositing requires a way to specify which parts of an image are transparent (allowing the background to show through). The alpha channel serves this purpose: an additional channel, alongside R, G, B, that stores transparency information for every pixel. An alpha value of 0 means completely transparent; 255 (in 8-bit) means completely opaque.
+4.11.2  Green Screen (Chroma Keying)
+Chroma keying is the technique of replacing a solid-colored background (typically green or blue, chosen because they are far from human skin tones) with a different image or video. The compositor analyzes the color of each pixel in the source footage and replaces pixels matching the key color with the corresponding pixel from the background image.
+WHY GREEN SCREEN?
+Green is the preferred keying color for digital video because:
+  1. Green is furthest from human skin tone (which has high red content)
+  2. Modern digital cameras are most sensitive to green (2 green pixels per
+     red and blue in the Bayer sensor pattern) → less noise in green channel
+  3. Blue screen was traditionally used for film (film was more sensitive to blue)
+
+Practical considerations: wearing green clothing in front of a green screen
+("green spill") will cause those parts to become transparent!
+4.12  Delivery Channels and Requirements
+Video content is delivered through many different channels, each with different technical requirements, constraints, and audiences. Choosing the wrong delivery format or encoding settings can cause poor quality, excessive file sizes, or platform rejection.
+Delivery Platform	Recommended Format	Bitrate Range	Special Requirements
+YouTube (HD)	MP4 (H.264 or VP9)	8–15 Mbps for 1080p	Re-encodes on upload; source quality matters
+Netflix (4K HDR)	Netflix-specific encoding	15–25 Mbps target	Proprietary delivery; uses AV1/H.265/VP9
+Instagram Reels	MP4 (H.264), 9:16 aspect	3.5 Mbps max	Under 60 seconds; vertical format
+TikTok	MP4 (H.264)	2–8 Mbps	Vertical; strong re-compression on platform
+Blu-ray Disc	MPEG-4/AVC or H.265 in BDAV	Up to 40 Mbps	Strict authoring spec; Dolby/DTS audio required
+Cinema (DCP)	JPEG2000 in MXF container	250 Mbps (2K) / 500 Mbps (4K)	Encrypted; requires KDM key for playback
+Broadcast TV	MPEG-2 or H.264 TS	4–19 Mbps	Country-specific regulations (ATSC/DVB)
+Live Streaming	RTMP/HLS (H.264)	3–8 Mbps	Low latency required; adaptive bitrate preferred
+4.12.1  Adaptive Bitrate Streaming (ABR)
+Modern streaming services use adaptive bitrate (ABR) streaming to deliver the best possible quality given the viewer's current network conditions. The video is encoded at multiple quality levels (e.g., 240p, 480p, 720p, 1080p, 4K), and the streaming client automatically switches between quality levels in real time as bandwidth conditions change.
+The two dominant ABR protocols are HLS (HTTP Live Streaming, developed by Apple, widely supported) and MPEG-DASH (Dynamic Adaptive Streaming over HTTP, an open standard used by YouTube, Netflix, and others).
+ 
+CHAPTER 5
+Animation Fundamentals
+Animation Fundamentals, Image Sequences and Keyframes, and Interpolation, Vector Animation, Motion Graphics, and Delivering Animation
+5.1  What Is Animation?
+Animation: Creates the illusion of motion by showing a rapid sequence of slightly different images (frames), perceived as continuous movement.
+5.1.1  The 12 Principles of Animation
+12 Principles of Animation: Developed techniques form the foundation for creating lifelike motion in 2D, 3D, and all animation media.
+Principle	Description	Application
+1. Squash and Stretch	Objects deform as they move, indicating mass and elasticity	Bouncing ball flattens on impact; face stretches during exaggerated expression
+2. Anticipation	A small preparatory action before the main action	Character crouches before jumping; arm pulls back before throwing
+3. Staging	Clear presentation of the idea for easy understanding	Camera angle, silhouette, and composition communicate action clearly
+4. Straight Ahead / Pose-to-Pose	Two approaches to animating a sequence	Straight ahead: frame by frame; Pose-to-pose: key poses then fill in
+5. Follow-Through & Overlapping	Secondary parts continue moving after the primary stops	Hair/coat continue moving after character stops; different body parts at different speeds
+6. Slow In and Slow Out	Actions accelerate and decelerate naturally	More frames at start and end of motion; fewer in the middle
+7. Arcs	Most natural motion follows curved paths, not straight lines	Arm swings in an arc; head moves in arc; thrown objects follow parabola
+8. Secondary Action	Supporting actions that add richness and detail	Hands gesture while talking; tail wags while character walks
+9. Timing	Number of frames determines speed and weight of action	Heavy object: more frames (slower); light object: fewer frames (faster)
+10. Exaggeration	Amplifying actions beyond realism for dramatic effect	Double-takes, elastic expressions, over-the-top reactions
+11. Solid Drawing	Understanding of form, weight, and three-dimensionality	Even in 2D, characters appear to have volume and exist in 3D space
+12. Appeal	Characters are designed to be watchable and engaging	Clear design, interesting poses, personality visible in silhouette
+5.2  Frame-by-Frame Animation
+The traditional approach to animation — whether on paper, acetate cells, or digitally — is to draw every single frame of the animation. For 24 fps animation, this means drawing 24 individual pictures for every second of screen time. A 10-minute animated short at 24 fps requires 14,400 unique drawings.
+Frame-by-frame animation gives complete control over every frame, but is immensely labor-intensive. It is the technique behind hand-drawn classics from Disney and Looney Tunes, as well as modern hand-drawn digital animation.
+5.3  Keyframe Animation
+Keyframe animation dramatically reduces the work required by defining only the important (key) positions and letting the computer — or junior animators (in-betweenness) — calculate the frames between them. The key frames define the crucial start, end, and turning points of an action; the computer fills in the intermediate frames through a process called interpolation.
+ 
+5.4 Interpolation
+Interpolation is the mathematical process of estimating values between known data points. In animation, it calculates the position, rotation, scale, color, or any other property of an object at frames between the keyframes defined by the animator. The choice of interpolation method dramatically affects the feel of the resulting motion.
+5.5  Animating Vector Objects
+Vector animation applies the principles of keyframe animation to vector objects — shapes, paths, and text defined mathematically rather than as pixel grids. The advantage of animating vectors is that the animation remains resolution-independent and infinitely scalable.
+5.5.1  SVG Animation
+SVG Animation: Scalable Vector Graphics support animation via:
+	• SMIL: XML-based (mostly deprecated)
+	• CSS transitions/animations: Simple property changes
+	• JavaScript/GSAP: Complex, interactive animations
+Used for web UI, icons, and data visualization.
+5.5.2  Flash and Its Successors
+Adobe Flash (1996–2020) was the dominant vector animation platform for the web for nearly two decades, enabling rich interactive animations in web browsers. However, its proprietary plugin model, security vulnerabilities, and incompatibility with mobile devices led to its decline and eventual discontinuation. Its successor technologies include:
+•	HTML5 Canvas + JavaScript: Direct pixel drawing in the browser; used by game engines and animation libraries
+•	CSS Animations: Hardware-accelerated property transitions; ideal for UI micro-animations
+•	WebGL: OpenGL ES 2.0 for the browser; used for 3D and high-performance 2D graphics
+•	Lottie (Airbnb): JSON-based format for exporting After Effects animations to web/mobile
+5.6  What Are Motion Graphics?
+Motion graphics (often abbreviated as "mograph") is a subset of animation that focuses on making graphic design elements move — text, logos, geometric shapes, charts, and abstract visuals — rather than animating characters or realistic scenes. Motion graphics are ubiquitous in modern media: broadcast television, film title sequences, explainer videos, UI animations, and digital signage.
+The distinction between "animation" and "motion graphics" is sometimes blurry, but motion graphics typically prioritizes design, visual communication, and information delivery over narrative character performance.
+
+
+
+
+5.6.1  Motion Graphics Applications
+Application	Description	Common Tools
+Title Sequences	Opening/closing credits for films and TV shows	After Effects, Cinema 4D, Flame
+Broadcast Packages	News graphics, sport scores, channel idents	After Effects, Vizrt, Chyron
+Explainer Videos	Animated videos explaining concepts or products	After Effects, Vyond, Toonly
+Infographic Animation	Animated charts, data visualization, maps	After Effects, D3.js, Flourish
+UI / UX Animation	Micro-animations in apps and websites	Figma, Lottie, CSS/JS, Framer
+Social Media Graphics	Short animated posts, stories, reels	Canva, After Effects, CapCut
+Lower Thirds	Text overlays identifying people/places on TV	After Effects, Premiere Pro
+Logo Animation	Animated version of a static brand logo	After Effects, Cinema 4D
+5.7  Animation Delivery Formats
+Format	Type	Max Colors	Supports Alpha	Best For
+GIF	Raster sequence	256 (8-bit)	Binary (1-bit)	Simple web animations, memes, low-color icons
+APNG	Raster sequence	Full 24-bit	Full 8-bit	Better alternative to GIF; not all browsers
+WebP animated	Raster sequence	Full	Full	Modern browsers; smaller than GIF
+AVIF animated	Raster sequence	HDR capable	Full	Next-gen; very small files
+Lottie JSON	Vector/JSON	Full	Full	Web/mobile vector animations from After Effects
+CSS Animation	Code-based	Full	Full	Simple web UI animations; hardware-accelerated
+MP4/WebM video	Video codec	Full	Partial (VP9)	Complex animations; loop with video player
+SVG + JS	Code/vector	Full	Full	Interactive web animations; small size
+CHAPTER 6
+Audio
+The Nature of Sound, Digitizing Sound, Processing Sound, Audio Compression, and MIDI
+6.1  What Is Sound?
+Sound is a mechanical wave — a pattern of compressions and rarefactions (regions of higher and lower pressure) propagating through an elastic medium, most commonly air. Unlike light waves, sound cannot travel through a vacuum. When an object vibrates (a guitar string, a vocal cord, a speaker cone), it alternately pushes and pulls the surrounding air molecules, creating a chain of pressure variations that travel outward as a longitudinal wave.
+When these pressure waves reach the human ear, they cause the eardrum to vibrate. These vibrations are transmitted through the ossicles (tiny bones in the middle ear) to the cochlea, where hair cells convert the mechanical vibrations into electrical signals sent to the brain. The brain interprets these signals as sound.
+Sound Wave Properties
+ 
+
+Figure 6.1  A sound wave showing amplitude, wavelength, compression, and rarefaction.
+
+6.1.1  Frequency and Pitch
+Frequency is the number of complete cycles (compressions and rarefactions) a sound wave completes per second, measured in Hertz (Hz). The perceptual correlate of frequency is pitch — the higher the frequency, the higher the perceived pitch. Human hearing generally spans approximately 20 Hz to 20,000 Hz (20 kHz), although this range narrows with age, particularly at high frequencies.
+Frequency Range	Name	Perception / Instruments
+20–80 Hz	Sub-bass	Felt as much as heard; kick drum rumble, bass synth, pipe organ lowest notes
+80–250 Hz	Bass	Warmth and weight; electric bass, bass guitar, lower male voice range
+250–500 Hz	Low midrange	Muddiness if over-emphasized; lower harmonics of vocals and instruments
+500–2,000 Hz	Midrange	Core intelligibility of speech; most acoustic instruments fundamental range
+2,000–4,000 Hz	Upper midrange	Vocal presence and clarity; can cause listener fatigue if harsh
+4,000–8,000 Hz	Presence	Consonant clarity in speech; pick attack; breath; high strings
+8,000–16,000 Hz	Brilliance/Air	Sheen, sparkle, and air; cymbals, breath, high-frequency harmonics
+16,000–20,000 Hz	Upper air	Barely audible; edge of human hearing; spatial cues
+6.1.2  Amplitude and Loudness
+Amplitude is the measure of the maximum displacement of air pressure from its rest value. Greater amplitude means a louder sound. The perception of loudness is not linear; the ear can handle an enormous range of sound intensities. To represent this range conveniently, sound levels are measured using the decibel (dB) scale, which is logarithmic.
+A 10 dB increase represents a tenfold increase in sound intensity (acoustic power), but perceptually sounds approximately twice as loud. A sound at 60 dB has 10,000 times more energy than a sound at 20 dB.
+Sound Level (dB SPL)	Example Sound	Relative Intensity
+0 dB	Threshold of hearing	1× (reference)
+10 dB	Rustling leaves	10×
+30 dB	Quiet library	1,000×
+60 dB	Normal conversation	1,000,000×
+80 dB	Busy street, vacuum cleaner	100,000,000×
+100 dB	Motorbike, concert near speaker	10,000,000,000×
+120 dB	Threshold of pain; jet engine	1,000,000,000,000×
+140 dB	Gunshot, rocket launch	100,000,000,000,000×
+
+
+6.1.3  Timbre and Waveforms
+Two notes at the same pitch (frequency) and loudness can sound completely different depending on who or what is playing them. A middle-A at 440 Hz sounds different on a piano versus a violin versus a trumpet. This difference in sound quality is called timbre (sometimes called "tone color").
+Timbre is determined by the overtone structure of a sound. Real-world sounds are not pure single frequencies — they are complex mixtures of the fundamental frequency and a series of higher-frequency harmonics (integer multiples of the fundamental). The relative strengths of these harmonics give each instrument its characteristic timbre.
+6.2  The ADC Process for Audio
+Digitizing sound requires an Analog-to-Digital Converter (ADC), typically built into a sound card, audio interface, or digital recording device. The ADC performs the same three-step process described in Chapter 1: sampling, quantization, and encoding.
+6.2.1  Sample Rate
+Audio sample rate determines the highest frequency that can be accurately reproduced. By the Nyquist theorem, the maximum reproducible frequency is exactly half the sample rate. The sample rates most commonly encountered in practice are:
+Sample Rate	Nyquist Frequency	Application	Notes
+8,000 Hz (8 kHz)	4 kHz	Telephone, voice codecs (G.711)	Adequate for speech; limited frequency range
+11,025 Hz	5.5 kHz	Legacy multimedia	Old Windows multimedia standard
+22,050 Hz	11 kHz	Legacy web audio, some FM radio	Acceptable audio quality; half of CD
+32,000 Hz	16 kHz	Some broadcast audio, wireless mics	Captures most audible content
+44,100 Hz	22.05 kHz	CD audio; standard consumer music	Nyquist covers full audible range (20 kHz)
+48,000 Hz	24 kHz	Professional audio, video production	DVD, video standard; extra headroom over 44.1
+96,000 Hz	48 kHz	High-resolution audio, professional studio	Records ultra-high frequencies; editing headroom
+192,000 Hz	96 kHz	Mastering, archiving, audiophile formats	Maximum quality; very large files
+
+6.3  Microphones and Audio Interfaces
+To digitize sound, you first need to convert acoustic sound waves into an electrical analog signal. Microphones do this, and audio interfaces then convert the analog electrical signal to digital data.
+6.3.1  Microphone Types
+Dynamic microphone: Uses electromagnetic induction (moving coil in a magnetic field). Robust, handles high SPL, no power required. Common for live vocals and amplifiers.
+Condenser microphone: Uses varying capacitance. More sensitive, wider frequency response, requires phantom power (+48V). Common in studios.
+Ribbon microphone: Uses a thin metallic ribbon in a magnetic field. Warm, vintage tone. Very fragile; figure-8 polar pattern.
+MEMS microphone: Micro-electromechanical systems. Tiny; used in smartphones, computers, hearing aids.
+6.3.2  Polar Patterns
+A microphone's polar pattern (pickup pattern) describes its sensitivity to sound from different directions. The right polar pattern for a situation can dramatically affect recording quality.  
+6.4  Audio Signal Processing
+Once audio has been digitized, a wide range of signal processing operations can be applied to shape its sound. These operations are performed by algorithms called effects or processors, which may be hardware units or software plug-ins.
+6.4.1  Equalization (EQ)
+Equalization adjusts the relative amplitudes of different frequency bands within an audio signal. It is the most fundamental tool for shaping the tonal character of a sound. 
+There are several types of EQ:
+High-pass filter (HPF): Passes frequencies above a cutoff frequency, attenuates below. Used to remove rumble, HVAC noise, and wind from recordings.
+Low-pass filter (LPF): Passes frequencies below a cutoff, attenuates above. Used to remove hiss, remove excessive high frequencies.
+Shelving EQ: Boosts or cuts all frequencies above (high shelf) or below (low shelf) a certain point. Used for overall tonal balance.
+Peak/Bell EQ: Boosts or cuts a range of frequencies centered on a specific frequency 
+(Q controls the width). Most flexible; used for detailed tonal shaping.
+Parametric EQ: Combines multiple bell and shelf bands with full control over frequency, gain, and Q
+6.4.2  Dynamics Processing
+Dynamics processors control the dynamic range of an audio signal — the difference between the loudest and quietest parts. They are essential for both technical correction and creative shaping.
+Processor	Function	Use Case
+Compressor	Reduces gain when signal exceeds a threshold; ratio controls how much	Control dynamic range of vocals, drums, bass; glue a mix
+Limiter	Hard compressor at very high ratio (10:1 or infinity:1); prevents clipping	Prevent digital clipping in masters and broadcast
+Gate / Expander	Reduces gain when signal falls below threshold; opposite of compression	Remove bleed between drum kit mics; reduce background noise
+De-esser	Frequency-selective compressor targeting sibilant (S, T) frequencies	Tame harsh sibilance in vocal recordings
+Multiband Compressor	Multiple compressors each acting on a different frequency band	Mastering; fine-grained dynamic control per frequency range
+Transient Shaper	Independently controls attack and sustain portions of a sound	Add punch to drums; control room ambience of room mics
+6.4.3  Reverb and Delay
+Time-Based Audio Effects:
+• Reverb: Simulates space reflections (room, hall, plate, spring, convolution). Key parameters: pre-delay, early reflections, RT60, diffusion.
+• Delay: Discrete echoes of the signal; parameters: delay time, feedback, level.
+• Chorus: Mixes the dry signal with a slightly pitch-modulated, delayed copy for a lush ensemble effect.
+• Flanger: Like chorus but with shorter delay and feedback, producing a sweeping “jet-plane” sound.
+• Phaser: Sweeping notches in frequency create a swirling effect.
+6.5  Audio Compression Methods
+Uncompressed audio at CD quality (44.1 kHz, 16-bit, stereo) requires 1,411 Kbps — about 10 MB per minute. Audio compression dramatically reduces these requirements. Like image compression, audio compression may be lossless or lossy.
+Format	Type	Bitrate Range	Quality	Best Use
+WAV	Uncompressed	1411 Kbps (CD)	Perfect	Master files, recording, professional editing
+AIFF	Uncompressed	1411 Kbps	Perfect	Apple platform uncompressed audio
+FLAC	Lossless	700–1200 Kbps	Perfect	Archival, audiophile distribution, streaming masters
+ALAC	Lossless	700–1200 Kbps	Perfect	Apple lossless; iTunes/Apple Music
+MP3	Lossy (MPEG-1)	32–320 Kbps	128K = good; 320K = excellent	Universal compatibility; music distribution
+AAC	Lossy	64–256 Kbps	Better than MP3 at same bitrate	iTunes/Apple Music, YouTube, streaming
+Ogg Vorbis	Lossy	64–500 Kbps	Competitive with AAC	Open-source; games, some streaming
+Opus	Lossy	6–510 Kbps	Best in class at low-medium bitrates	VoIP, Discord, web, modern streaming
+ATRAC	Lossy	64–292 Kbps	Good	Sony MiniDisc; legacy
+DTS / Dolby Digital	Lossy (surround)	96–6144 Kbps	Excellent multichannel	Cinema, Blu-ray, streaming (Atmos, DTS:X)
+6.5.1  How Lossy Audio Compression Works (MP3/AAC)
+Lossy audio codecs use psychoacoustic models — mathematical representations of human hearing perception — to identify and discard audio information that the listener is unlikely to notice. Key psychoacoustic effects exploited include:
+Masking: A loud sound makes nearby quieter sounds inaudible. A loud 1 kHz tone masks a quieter 1.05 kHz tone (simultaneous masking) or a quiet sound shortly before/after a loud one (temporal masking)
+Hearing threshold: The human ear cannot hear sounds below a certain level at each frequency (the absolute threshold of hearing). Sounds below this threshold can be removed without perceptible loss
+Critical bands: The ear analyzes frequency in overlapping critical bands (Bark scale). Masking within a critical band is especially strong
+6.6  What Is MIDI?
+MIDI (Musical Instrument Digital Interface) is not audio — it is a protocol for transmitting musical performance instructions between electronic musical instruments, computers, and other devices. A MIDI message does not contain any sound; instead, it describes a musical event: "play note C4 at velocity 80" or "change the volume controller of channel 3 to 64."
+MIDI was standardized in 1983 as an open protocol jointly developed by major synthesizer manufacturers. Despite its age — 40+ years — MIDI remains the universal language of electronic music production, connecting keyboards, drum machines, synthesizers, software instruments, digital audio workstations, and lighting controllers.
+6.6.1  MIDI Data Structure
+Message Type	Data	Description
+Note On	Channel (1-16), Note (0-127), Velocity (0-127)	Key pressed; velocity indicates how hard
+Note Off	Channel, Note, Velocity	Key released
+Polyphonic Key Pressure	Channel, Note, Pressure	Aftertouch per note (less common)
+Control Change (CC)	Channel, Controller# (0-127), Value (0-127)	Knobs, faders, pedals (modulation, volume, etc.)
+Program Change	Channel, Program (0-127)	Change instrument/patch (e.g., switch to piano)
+Channel Pressure	Channel, Pressure (0-127)	Overall aftertouch (one value per channel)
+Pitch Bend	Channel, 14-bit value	Pitch wheel position; higher resolution than CC
+System Exclusive (SysEx)	Manufacturer ID + data bytes	Manufacturer-specific device programming
+6.6.2  MIDI vs. Audio
+KEY DIFFERENCE: MIDI vs. AUDIO
+AUDIO: Contains the actual sound as digital samples. Editing changes the sound itself.
+  Advantages: Exactly captures the final sound; plays on any device without synthesis.
+  Disadvantages: Tempo/pitch changes degrade quality; large files; hard to edit notes.
+
+MIDI: Contains performance instructions only. The SOUND depends on the synthesizer used.
+  Advantages: Tiny files; fully editable (change notes, timing, instruments freely); can be played back on any synthesizer at any tempo or pitch without quality loss.
+  Disadvantages: Sound quality depends entirely on the synthesizer/sample library used.
+
+Modern production typically uses both: MIDI to program instruments, audio for recording.
+CHAPTER 7
+Text and Typography
+Text, Fonts, Layout and Formatting, Hypermedia, Text Layout on Screen, Links and Navigation, The Web and Hypermedia
+7.1  Text as Digital Data
+Text is the oldest and most fundamental type of digital data. To represent text digitally, we need a way to map characters (letters, digits, punctuation, symbols) to numbers (which computers can store). A character set is a defined collection of characters; a character encoding specifies how those characters are mapped to binary values.
+7.1.1  ASCII
+ASCII (American Standard Code for Information Interchange), established in 1963, was the first widely adopted character encoding. ASCII uses 7 bits to represent 128 characters: 26 uppercase letters, 26 lowercase letters, 10 digits, 32 punctuation/symbol characters, and 34 non-printing control characters (like newline, tab, carriage return).
+ASCII's 7-bit design was intentional: the 8th bit was available for error checking (parity) or for extended character sets. However, ASCII only covers English characters — no accented letters, no non-Latin scripts. This led to a proliferation of incompatible extended character sets for different languages.
+Character	ASCII Code (Decimal)	ASCII Code (Hex)	Binary
+A	65	0x41	01000001
+Z	90	0x5A	01011010
+a	97	0x61	01100001
+z	122	0x7A	01111010
+0	48	0x30	00110000
+9	57	0x39	00111001
+Space	32	0x20	00100000
+!	33	0x21	00100001
+Newline (LF)	10	0x0A	00001010
+Tab	9	0x09	00001001
+
+7.1.2  Unicode
+Unicode is the modern universal character standard, designed to represent every character in every writing system used by humanity. Developed from 1987 and released in 1991, Unicode currently defines over 149,000 characters across 154 scripts, including historical and extinct writing systems, mathematical symbols, emoji, and much more.
+Unicode assigns each character a unique code point, written as U+XXXX (where XXXX is a hexadecimal number). For example: U+0041 = Latin Capital Letter A, U+0041 = same as ASCII 65; U+0631 = Arabic Letter Ra; U+4E2D = Chinese Character 中 (middle); U+1F600 = 😀 Grinning Face emoji.
+7.1.3  Unicode Encodings: UTF-8, UTF-16, UTF-32
+Unicode defines code points (numbers for each character), but several different encodings define how those numbers are stored as bytes:
+Encoding	Bytes per Character	Backward-compatible with ASCII?	Best For
+UTF-8	1–4 bytes (variable)	Yes (ASCII is 1 byte in UTF-8)	Web, email, text files, APIs — dominant standard
+UTF-16	2 or 4 bytes (variable)	No	Windows APIs, Java, JavaScript strings internally
+UTF-32	4 bytes (fixed)	No	Simplicity; less common due to large file size
+UTF-8 BOM	UTF-8 + 3-byte prefix	Yes (with warning)	Some Windows software; generally avoid
+WHY UTF-8 DOMINATES THE WEB
+• ASCII-compatible: All ASCII text is valid UTF-8 with no conversion needed.
+• Self-synchronizing: Easy to find character boundaries even in the middle of a stream.
+• Space-efficient for Latin scripts: Common English/European text uses only 1 byte/char.
+• Dominant: Over 98% of web pages use UTF-8 (W3Techs, 2024).
+
+Always declare your encoding explicitly in HTML: <meta charset="UTF-8">
+
+ 
+7.2  Type Anatomy
+Typography has a rich vocabulary for describing the parts of letterforms. Familiarity with this vocabulary allows you to communicate precisely about type and to understand the design decisions behind typefaces.
+ 
+7.3  Font Technologies
+Technology	Format	Rendering	Key Features
+Bitmap Font	.fon, .bdf	Fixed pixels	Simple; only looks good at designed sizes; largely obsolete
+PostScript Type 1	.pfb/.pfm	Vector (cubic Bézier)	High quality for print; two files required; being phased out
+TrueType	.ttf	Vector (quadratic Bézier)	Single file; widely supported since 1991; hinting instructions
+OpenType	.otf (or .ttf)	Vector (either curve type)	Supersedes both T1 and TT; Unicode; advanced features
+WOFF / WOFF2	.woff/.woff2	Vector (compressed OTF/TTF)	Web fonts; WOFF2 ~30% smaller; recommended for web use
+Variable Fonts	.ttf/.otf	Vector (parametric)	One file with multiple axes (weight, width, italic); very efficient
+Color Fonts	.otf (COLR/SBIX)	Color vector or raster	Supports colored emoji and decorative fonts (OpenType 1.8)
+7.3.1  Typeface Classifications
+Classification	Characteristics	Examples	Typical Use
+Old Style / Humanist Serif	Calligraphic origins; diagonal stress; bracketed serifs	Garamond, Palatino, Caslon	Books, long-form text, academic
+Transitional Serif	More vertical stress; sharper, higher-contrast strokes	Times New Roman, Baskerville, Georgia	Newspapers, academic, body text
+Modern / Didone Serif	Extreme stroke contrast; flat, unbracketed serifs	Bodoni, Didot, Walbaum	Fashion, luxury branding, display
+Slab Serif	Heavy, blocky serifs; low stroke contrast	Rockwell, Clarendon, Courier	Headlines, retro design, coding
+Humanist Sans	Calligraphic qualities; stroke contrast; organic	Gill Sans, Frutiger, Myriad	Corporate, wayfinding, books
+Grotesque Sans	Simple, utilitarian; some irregularities	Franklin Gothic, Akzidenz-Grotesk	Newspaper headlines, editorial
+Geometric Sans	Based on geometric shapes (circles, lines)	Futura, Bauhaus, Avenir	Modernist design, tech branding
+Neo-Grotesque Sans	Clean, neutral; very small optical variation	Helvetica, Univers, Arial	Swiss design, signage, interfaces
+Display/Decorative	Expressive; sacrifices legibility for personality	Cooper Black, Lobster, Impact	Headlines, posters, logos only
+Script / Handwriting	Simulates handwriting or calligraphy	Brush Script, Pacifico, Snell	Invitations, certificates, logos
+Monospace	All characters equal width	Courier, Consolas, Monaco	Code, typewriter aesthetic, tables
+7.4  Typographic Fundamentals
+7.4.1  Type Size and Scale
+Type size is measured in points (pt) in traditional typography. One point = 1/72 of an inch. In digital design and CSS, px (pixels), em (relative to parent font size), rem (relative to root font size), and vw/vh (relative to viewport) are also commonly used.
+A well-designed type scale provides harmony and hierarchy. Common typographic scales are based on musical ratios or the golden ratio. The modular scale (popularized by Tim Brown) multiplies a base font size by a consistent ratio:
+ 7.4.2  Line Spacing (Leading)
+Line spacing — traditionally called leading (from the lead strips used in manual typesetting) — is the vertical distance between baselines of successive lines of text. Proper leading dramatically affects readability.
+•	Too tight: Lines appear to run together; reading is fatiguing
+•	Too loose: The eye struggles to locate the next line; text feels disconnected
+•	Optimal: Generally 1.3–1.6× the font size for body text (120%–150%)
+•	CSS: line-height: 1.5 (unit-less value, multiplied by current font size)
+7.4.3  Tracking and Kerning
+Tracking (letter-spacing): Uniform adjustment of space between all characters in a text block. Increase for headlines to create elegance; all-caps text often benefits from increased tracking.
+Kerning: Adjustment of space between specific pairs of characters to optically equalize spacing. Common problem pairs: AV, WA, To, Ve, etc. Most professional fonts include kerning tables.
+Word spacing: Distance between words. Controlled separately from letter-spacing in some systems.
+7.4.4  Text Alignment
+Alignment	Description	Best For	Avoid When
+Left-aligned (ragged right)	Text aligned to left margin; right edge varies	Body text, most western reading; most readable	Right-to-left languages (use right-aligned)
+Right-aligned (ragged left)	Text aligned to right margin; left edge varies	Captions, labels next to right-side elements	Long body text (hard to find line starts)
+Centered	Each line centered; both edges vary	Headlines, invitations, formal displays	Multi-line body text (hard to read)
+Justified (both edges)	Text stretches to fill both margins	Books, newspapers, formal documents	Narrow columns (creates rivers of white space)
+7.5  From Text to Hypermedia
+Traditional printed text is linear — it is meant to be read from beginning to end in a fixed sequence. Even books with complex structures (footnotes, cross-references, indexes) require the reader to physically navigate to disconnected sections. Hypertext and hypermedia break this linearity by embedding direct links within content that allow instant, non-linear navigation between related items.
+The concept of hypertext was pioneered by Vannevar Bush, who described a theoretical "Memex" machine in his 1945 essay "As We May Think" — a device that would store and link documents in the way human thought associatively connects ideas. Ted Nelson coined the terms "hypertext" and "hypermedia" in the 1960s, while Douglas Engelbart’s oN-Line System (NLS) demonstrated the first working hypertext system in 1968. Tim Berners-Lee's World Wide Web (1991) brought hypertext to the mass public.
+7.5.1  Key Hypermedia Concepts
+Node: A discrete unit of information — a page, a section, a document. The "destination" of a link.
+Link (Hyperlink): A connection between two nodes. Clicking a link navigates to the linked node.
+Anchor: The specific text, image, or element in one node that the link is attached to
+Web (or Net): A set of interconnected nodes and links forming a navigable information space
+Graph: The mathematical structure underlying any hypertext system — nodes are vertices, links are edges
+7.5.2  Types of Hyperlinks
+Link Type	Description	Example
+Textual hyperlink	Clickable words or phrases linking to another page	"Click here for more information"
+Image hyperlink	Clickable image that navigates to another URL	Logo linking to homepage
+Internal link	Link within the same document (anchor link)	Table of contents linking to sections
+External link	Link to a different website or domain	Citation linking to source article
+Fragment link	Link to a specific element on a page (using #id)	Chapter link: page.html#chapter3
+Email link	Opens email client with pre-filled address	mailto:contact@example.com
+Telephone link	Initiates phone call on mobile devices	tel:+1-555-0100
+Download link	Link to a file that should be downloaded	PDF, ZIP, MP3 file download
+
+7.6  Differences Between Print and Screen Typography
+Typography designed for print does not automatically work well on screen. The two media differ fundamentally in how they render text, how they are viewed, and what the reader expects.
+Aspect	Print	Screen
+Resolution	300–600+ DPI	72–400 PPI (varies widely)
+Brightness	Reflected light (paper)	Emitted light (backlit)
+Reading distance	Typically 30–40 cm	Typically 45–70 cm (monitor); 25–35 cm (phone)
+Line length	50–75 characters (optimal)	45–75 characters (shorter for mobile)
+Font rendering	Perfect at design size	Requires hinting; varies by OS/renderer
+Dynamic sizing	Fixed at print time	Must adapt to screen size (responsive design)
+Interactivity	None	Links, hover states, animation possible
+Color	CMYK (reflective)	RGB (emissive); wider gamut on modern displays
+7.6.1  Responsive Typography
+Responsive design ensures that content adapts to the wide variety of screen sizes, from small smartphones (320px wide) to large desktop monitors (2560px+). Responsive typography scales type sizes, line lengths, and layout proportionally.
+CSS RESPONSIVE TYPOGRAPHY TECHNIQUES
+Relative units (em, rem): Scale with user preferences and parent font size.
+  body { font-size: 1rem; }  /* = 16px by default */
+  h1 { font-size: 2.5rem; } /* = 40px */
+
+Viewport units (vw): Scale with viewport width.
+  h1 { font-size: clamp(1.5rem, 4vw, 3rem); }
+  (minimum 1.5rem, scales with viewport, max 3rem)
+
+Media queries: Different styles at different breakpoints.
+  @media (max-width: 600px) { body { font-size: 0.9rem; } }
+
+ 
+7.7  Navigation Design Principles
+Navigation is how users find their way through a hypermedia space. Good navigation gives users a clear sense of where they are, where they can go, and how to get back. Poor navigation is the primary cause of user frustration and abandonment in web and interactive media.
+7.7.1  Navigation Patterns
+Global navigation: Persistent navigation bar present on every page, linking to the main sections of the site/app
+Local navigation: Navigation within a section (e.g., a sidebar showing chapters in the current book)
+Breadcrumbs: A trail showing the user's path through the hierarchy: Home > Products > Electronics > Cameras
+Pagination: Breaking long content into multiple numbered pages with next/previous links
+Search: Text search allowing users to find content directly without navigating the hierarchy
+Footer navigation: Secondary links in the page footer — legal pages, sitemap, contact
+7.7.2  Link Usability Principles
+•	Make links visually distinct from surrounding text (color, underline, or both)
+•	Use descriptive link text — "Learn more about typography" not "click here"
+•	Indicate when links open in new tabs/windows (users find unexpected new windows jarring)
+•	Visited link styling (changing color after clicking) helps users track explored content
+•	Provide obvious hover and focus states for all interactive elements
+•	Ensure links have sufficient click/tap target size (at least 44×44px for touch targets)
+7.8  The World Wide Web
+The World Wide Web is the world's largest and most diverse hypermedia system. Invented by Tim Berners-Lee at CERN in 1989–1991, the Web is built on three foundational technologies:
+HTTP (HyperText Transfer Protocol) for communication, HTML (HyperText Markup Language) for content, and URLs (Uniform Resource Locators) for addressing.
+ 
+7.8.1  HTML as a Multimedia Container
+HTML5 (the current version) includes native support for multimedia that was previously only possible through third-party plugins like Flash:
+HTML5 Element	Purpose	Key Attributes
+<img>	Embed raster or vector images	src, alt, width, height, loading, srcset
+<picture>	Responsive images with multiple sources	Contains <source> and <img> elements
+<svg>	Inline vector graphics	viewBox, width, height; can include CSS/JS
+<canvas>	Scriptable 2D and 3D drawing surface	width, height; requires JavaScript to draw
+<video>	Embed video with native player	src, controls, autoplay, loop, poster, preload
+<audio>	Embed audio with native player	src, controls, autoplay, loop, preload
+<track>	Text tracks for video (subtitles, captions)	kind, src, srclang, label; child of <video>
+<object>	General embedded content (legacy)	data, type; used for PDFs, legacy content
+<iframe>	Embedded frame with another document	src; used for YouTube embeds, maps, etc.
+7.8.2  CSS for Multimedia Layout
+CSS (Cascading Style Sheets) controls the visual presentation of HTML content. Modern CSS provides powerful layout systems that make responsive, complex multimedia layouts possible:
+Flexbox: One-dimensional layout (rows or columns). Excellent for navigation bars, card rows, centering content
+CSS Grid: Two-dimensional layout. Ideal for complex page layouts with both rows and columns
+CSS Transitions: Smooth animated changes between CSS property values on state changes (hover, focus)
+CSS Animations: @keyframes-based animations; hardware accelerated via GPU
+CSS Variables (Custom Properties): Reusable values throughout stylesheets; enables theming and dynamic styling
+Media Queries: Apply different styles based on viewport size, device type, or user preferences
+ 
+CHAPTER 8
+Visual Design
+Visual Communication, Gestalt Principles, Color and Tone in Design, and Layout Grids
+8.1  The Purpose of Visual Design
+Visual design in multimedia serves two fundamental purposes: communication and aesthetics. Communication means clearly conveying information, guiding the viewer's attention, and ensuring the intended message is received. Aesthetics means creating a visual experience that is pleasing, emotionally resonant, and appropriate for its context.
+These goals can reinforce each other — a well-designed interface is often both more beautiful and more usable than a poorly designed one — but they can also conflict, requiring careful balancing. The principle of "form follows function" from industrial design suggests that visual form should serve communicative function, not decorate at the expense of it.
+8.1.1  Semiotics and Visual Language
+Semiotics is the study of signs and their meaning. In visual design, signs are any visual element that carries meaning: a word, an icon, a color, a photograph, a shape, a spatial arrangement. A designer’s understanding of semiotic categories helps create effective visual communication.
+Icon: A sign that resembles what it represents. A photograph of a car is an iconic sign for "car"
+Symbol: A sign with an arbitrary, culturally learned relationship to its referent. The letter "A" represents the sound /a/ by convention, not by resemblance.
+Index: A sign with a causal or physical relationship to its referent. Smoke indicates fire; a loading spinner indicates a process is running.
+8.1.2  Visual Hierarchy
+Visual hierarchy is the arrangement of elements to indicate their relative importance and guide the viewer's eye through the design in a deliberate order. The most important element should be the most visually prominent; secondary elements should be less prominent; supporting details should recede.
+Visual hierarchy is created through differences in: size (larger elements are noticed first), color (high-contrast or saturated colors attract attention), weight (bold is noticed before regular), position (top-left is typically read first in LTR cultures), space (isolated elements stand out from crowded ones), and texture (complexity attracts attention in a simple field).
+ 
+ 
+
+8.2  Gestalt Psychology and Design
+Gestalt Psychology: Early 20th-century theory stating “the whole is greater than the sum of its parts.”
+• The brain naturally organizes visual elements into unified wholes.
+• Gestalt principles guide designers to create intuitive, well-organized visuals that communicate effectively.
+Gestalt Principle	Description	Design Application
+Proximity	Elements that are close together are perceived as belonging to the same group	Group related controls; separate unrelated sections with whitespace; navigation items
+Similarity	Elements that share visual properties (color, shape, size, texture) are perceived as related	Use consistent button styles; color-code categories; consistent icon style
+Continuity	The eye follows lines, curves, and alignments naturally, preferring smooth paths	Align elements along invisible lines; create visual flow through layouts
+Closure	The brain fills in missing parts to perceive complete shapes	Logos with gaps still "read" as complete shapes; progress indicators
+Figure/Ground	We separate visual fields into figure (foreground) and ground (background)	Ensure sufficient contrast between content and background; avoid ambiguous relationships
+Common Fate	Elements that move together are perceived as related	Animate related items together; use coordinated motion in UI
+Symmetry	Symmetrical arrangements feel stable and organized	Center-aligned layouts feel balanced; symmetric page structures feel formal
+Prägnanz (Good Form)	The brain prefers to perceive the simplest possible interpretation	Simplify complex information; avoid unnecessary visual complexity
+
+Gestalt Principles Illustrated
+ 
+Figure 8.2  Visual demonstrations of key Gestalt principles of perception.
+8.3  Color in Visual Communication
+Color in Design: A powerful tool to attract attention, set mood, establish brand identity, indicate status, and organize information.
+• Cultural Context: Color meanings vary across cultures (e.g., mourning: black in the West, white in parts of East Asia; green: freshness in the West, illness elsewhere).
+• Designers must consider cultural associations for international audiences.
+8.3.1  Color Schemes
+Color Scheme	How to Create	Feeling / Effect	Best For
+Monochromatic	One hue + variations in saturation and lightness	Unified, elegant, sophisticated	Minimalist design, luxury brands, focused emphasis
+Analogous	Two to four adjacent hues on the color wheel	Harmonious, natural, comfortable	Nature-inspired design, warm or cool palettes
+Complementary	Two hues directly opposite on the color wheel (e.g., blue+orange)	High contrast, vibrant, energetic	Call-to-action buttons, sports graphics, attention-grabbing
+Split-Complementary	One hue + two hues adjacent to its complement	Contrast without tension; more versatile	General purpose; retains impact with more variety
+Triadic	Three hues equally spaced (120° apart)	Colorful, dynamic, playful	Illustrations, children's media, playful brands
+Tetradic (Square/Rectangle)	Four hues forming a rectangle/square on wheel	Rich; complex; many colors available	Complex illustrations; careful balance needed
+Neutral	Grays, white, black, and earth tones	Professional, timeless, versatile	Business applications, supporting roles
+8.3.2  Color and Emotion
+Color	Common Associations (Western)	Common Associations (General)	Common Industry Use
+Red	Passion, danger, urgency, love, anger	Widely associated with alertness/warning cross-culturally	Food & beverage, sales/discounts, alerts, error states
+Orange	Warmth, enthusiasm, creativity, affordability	Energy, vitality; less aggressive than red	Call-to-action buttons, youth brands, technology, food
+Yellow	Happiness, warmth, caution, optimism	Visibility; associated with caution in many cultures	Warnings, children's media, highlights, optimistic brands
+Green	Nature, health, growth, envy, go/safe	Environmental connection widely shared	Healthcare, environment, food, finance, success states
+Blue	Trust, calm, professionalism, cold, sadness	Most universally liked color globally	Technology, finance, healthcare, corporate identity
+Purple	Royalty, luxury, creativity, mysticism	Associated with wealth and rarity historically	Luxury brands, creative industries, beauty, spirituality
+Pink	Femininity, romance, gentleness, playfulness	Cultural; stronger gender associations in West	Beauty, romance, children (some cultures), healthcare
+Brown	Earthiness, reliability, warmth, naturalness	Connected to earth and natural materials	Food, outdoor/natural brands, rustic/artisanal aesthetics
+Black	Elegance, power, death, sophistication	Widely used for mourning in West; royalty in some cultures	Luxury, fashion, technology (dark mode), formal
+White	Purity, cleanliness, simplicity, emptiness	Mourning color in East Asia; purity in West	Healthcare, minimalist design, space, cleanliness
+8.4  Grid Systems in Design
+A layout grid is an invisible framework of columns, rows, and gutters that provides a consistent structure for arranging visual elements. Grid systems are one of the oldest organizing principles in typography and graphic design, dating back to medieval manuscript design and systematized in the 20th century Swiss International Typographic Style (Swiss Style).
+Grids do not constrain creativity — they provide a foundation of order and alignment that makes creative choices more effective. When elements are aligned to a common grid, the layout feels organized and professional even when the content is complex.
+
+
+
+
+
+
+8.4.1  Grid Terminology
+Grid System Anatomy
+ 
+Figure 8.3  Anatomy of a layout grid showing margins, columns, and gutters.
+8.4.2  Common Grid Systems
+Grid System	Structure	Best For
+Single column	1 column; maximum readability width	Blog posts, articles, books, long-form content
+Two-column	2 equal or unequal columns	Content + sidebar layouts, comparison layouts
+Three-column	3 equal columns	Magazines, news sites, card layouts
+12-column	12 equal columns (can be divided into 1,2,3,4,6,12)	Flexible web layouts; used in Bootstrap and major frameworks
+Modular grid	Both columns AND rows divide the page into a grid of cells	Complex publication design; image-heavy layouts
+Manuscript grid	Single content area with generous margins	Academic papers, books, focused reading
+Hierarchical grid	Irregular grid that follows content needs	Creative work; portfolios; complex editorial layouts
+ 
+CHAPTER 9
+Interactivity
+Interacting With Multimedia, and Interacting Through Multimedia
+9.1  What Is Interactivity?
+Interactivity is the quality that distinguishes multimedia from passive media. A book is not interactive — the reader can read it in any order, but the book itself does not respond to the reader. An interactive multimedia application responds to user input: it changes what it displays, plays, or does based on the user's actions.
+The degree of interactivity exists on a spectrum, from minimal (a pause button on a video player) to moderate (a menu-driven CD-ROM encyclopedia) to highly interactive (a real-time game or simulation). The appropriate level of interactivity depends on the purpose of the application.
+9.1.1  Input Modalities
+Input Type	Device / Mechanism	Typical Use
+Point and click	Mouse, trackpad	Desktop GUIs; web browsers; graphic applications
+Touch	Touchscreen (finger/stylus)	Smartphones, tablets, kiosks, large touch displays
+Keyboard	Physical or virtual keyboard	Text entry; keyboard shortcuts; accessibility navigation
+Gamepad / Controller	Buttons, joysticks, triggers	Video games; media center controls; some accessibility use
+Voice / Speech	Microphone + ASR	Voice assistants; voice search; accessibility (voice control)
+Gesture	Camera, depth sensor (Kinect, etc.)	Gaming (Xbox Kinect); VR/AR controllers; sign language
+Gaze / Eye tracking	Infrared eye tracker	Accessibility; gaze-controlled interfaces; research
+Biometric	Fingerprint sensor, face camera	Authentication; emotional response measurement
+Location	GPS, Wi-Fi/BLE positioning	Location-based apps, AR, navigation
+9.1.2  Interaction Design Principles
+Interaction design focuses on how users interact with systems, aiming to create products that are useful, usable, and enjoyable. Several foundational principles guide good interaction design:
+Affordance: A design quality that suggests how an element should be used. A button that looks 3D "affords" clicking because it resembles a physical button you can press
+Feedback: The system's response to user actions. Every action should have clear, timely feedback: a button changes color when pressed; a spinner appears while loading
+Consistency: Similar elements should behave similarly. Users apply learned behaviors to new elements; violating consistency creates confusion
+Learnability: How quickly a first-time user can accomplish basic tasks. Reduced by complexity; improved by convention and good affordances
+Efficiency: How quickly experienced users can accomplish tasks. May involve shortcuts, batch operations, and remembering user preferences
+Error prevention: Designing to prevent mistakes before they happen. Better than good error messages
+Error recovery: When errors occur, help users understand what went wrong and how to fix it. "Undo" is the most powerful error recovery feature
+9.1.3  Mental Models
+A mental model is the user's internal representation of how a system works. When the design matches the user's mental model, it feels intuitive. When it doesn't, the design is confusing. Effective interaction design either matches existing mental models (the "save" floppy disk icon still works despite most users never seeing a floppy disk) or gradually builds new ones through consistent, transparent behavior.
+9.2  Interactive Storytelling
+Traditional storytelling is linear: the author controls the narrative from beginning to end. Interactive storytelling gives the audience agency — the ability to influence the narrative, make choices, and take different paths through the story. This creates a fundamentally different relationship between creator and audience.
+ 
+9.2.1  Branching Narratives
+The simplest form of interactive storytelling is the branching narrative: at certain decision points, the user chooses from multiple options, and each choice leads to a different story branch. The total story is a tree (or graph, with branches that converge) of possibilities.
+Branching Narrative Structure
+ 
+LINEAR: 1 path           BRANCHING: 2^n paths (4 choices = 16 endings)
+Author control high      Player agency high; author must create all paths
+Figure 9.1  Linear vs. branching narrative structures. Branching exponentially multiplies content.
+9.2.2  Video Games as Multimedia
+Video games are the most complex form of interactive multimedia, combining graphics, sound, animation, music, narrative, and real-time interactivity into a single experience. Modern AAA game development involves hundreds of specialists: programmers, artists, designers, writers, sound engineers, animators, and producers.
+Game Element	Multimedia Components Involved	Key Considerations
+Graphics/Visuals	3D modeling, texturing, lighting, post-processing	Performance vs. quality balance; target hardware
+Sound Design	Foley, ambient audio, dynamic mixing	Spatial audio; real-time mixing based on game state
+Music	Adaptive/dynamic score that responds to gameplay	Interactive music systems; seamless loop transitions
+Animation	Character rigging, motion capture, procedural animation	Animation state machines; blending; physics simulation
+User Interface	HUD elements, menus, maps, inventory	Diegetic vs. non-diegetic UI; minimizing visual noise
+Narrative	Cutscenes, dialogue systems, environmental storytelling	Pacing; player agency vs. story control balance
+Physics	Rigid body, cloth, fluid, particle simulation	Performance; determinism for multiplayer
+CHAPTER 10
+Accessibility
+Accessibility, Textual Alternatives, Accessible Multimedia Content, The Future of Multimedia
+10.1  Why Accessibility Matters
+Accessibility in multimedia means designing content and interfaces that can be used by people with a wide range of abilities, including those with visual, auditory, motor, cognitive, and speech disabilities. It is both an ethical imperative and a legal requirement in many jurisdictions.
+The World Health Organization estimates that over 1.3 billion people globally — about 16% of the world's population — live with some form of disability. Many of these disabilities directly affect how people interact with multimedia content. Ignoring accessibility excludes a significant portion of potential users.
+10.1.1  Types of Disabilities Affecting Multimedia Use
+Disability Category	Examples	Impact on Multimedia	Assistive Technology Used
+Visual	Blindness, low vision, color blindness, photosensitivity	Cannot see images, video; may be unable to distinguish colors; seizure risk	Screen readers, magnifiers, high contrast mode
+Auditory	Deafness, hard of hearing, auditory processing disorder	Cannot hear audio content, spoken instructions, audio alerts	Captions, transcripts, visual alerts, hearing aids
+Motor/Physical	Paralysis, tremor, limited hand function, amputation	Cannot use mouse precisely; cannot use standard keyboard; slow input	Keyboard navigation, switch access, eye tracking, voice control
+Cognitive	Dyslexia, ADHD, autism spectrum, intellectual disability	Difficulty reading complex text; distracted by motion; overwhelmed by complexity	Reading tools, simplified interfaces, plain language
+Speech	Mutism, stuttering, aphasia	Cannot use voice-based interfaces	Alternative text input; gesture/switch alternatives to voice
+Neurological	Epilepsy, migraines	Flashing content can trigger seizures; bright or moving content causes pain	Reduced motion mode; animation controls; contrast controls
+
+10.2  Web Content Accessibility Guidelines (WCAG)
+The Web Content Accessibility Guidelines (WCAG), developed by the W3C's Web Accessibility Initiative (WAI), are the internationally recognized standard for web accessibility. WCAG 2.1 (and the current WCAG 2.2) organizes requirements around four core principles, summarized by the acronym POUR:
+WCAG POUR Principles
+            ┌────────────────────────────────────────────────────────────┐
+            │                   WCAG POUR PRINCIPLES                     │
+            ├──────────────┬─────────────────────────────────────────────┤
+            │  P           │  PERCEIVABLE                                │
+            │              │  Information must be presentable in ways    │
+            │              │  users can perceive (see or hear).          │
+            │              │  Examples: Alt text, captions, contrast     │
+            ├──────────────┼─────────────────────────────────────────────┤
+            │  O           │  OPERABLE                                   │
+            │              │  Interface must be operable by all users.   │
+            │              │  Examples: Keyboard nav, no seizure traps   │
+            ├──────────────┼─────────────────────────────────────────────┤
+            │  U           │  UNDERSTANDABLE                             │
+            │              │  Content and operation must be              │
+            │              │  understandable.                            │
+            │              │  Examples: Clear language, error help       │
+            ├──────────────┼─────────────────────────────────────────────┤
+            │  R           │  ROBUST                                     │
+            │              │  Content must work with current and future  │
+            │              │  assistive technologies.                    │
+            │              │  Examples: Valid HTML, ARIA roles           │
+            └──────────────┴─────────────────────────────────────────────┘
+ 
+Figure 10.1  The four WCAG POUR principles forming the foundation of web accessibility.
+
+  
+10.3  Text Alternatives for Non-Text Content
+The most fundamental principle of accessible multimedia is providing text alternatives for non-text content. Text is the most universally adaptable form of information: it can be read aloud by screen readers, rendered in Braille, enlarged, translated, simplified, indexed, searched, and copied. By providing text equivalents for images, audio, and video, we make this content accessible to users who cannot perceive it in its original form.
+10.3.1  Alternative Text for Images (Alt Text)
+Alternative text (the "alt" attribute in HTML's <img> element) provides a text description of an image. Screen readers announce this text to users who cannot see the image. Good alt text is contextually appropriate — it describes the information conveyed by the image in that specific context, not just what the image depicts literally.
+ALT TEXT WRITING GUIDE
+INFORMATIVE images: Describe the essential information.
+  Bad:  alt="photo"
+  Bad:  alt="image of a dog"
+  Good: alt="A golden retriever puppy playing with a red ball in grass"
+
+FUNCTIONAL images (buttons, links): Describe the action/destination.
+  Bad:  alt="magnifying glass icon"
+  Good: alt="Search"
+
+DECORATIVE images: Use empty alt (alt="") to tell screen readers to skip it.
+  Never omit the alt attribute entirely — screen readers will announce the filename.
+
+COMPLEX images (charts, diagrams): Provide a short alt text PLUS a long description
+  alt="Bar chart showing sales growth 2020-2024"
+  Then provide a full text description of the data nearby or via aria-describedby
+10.3.2  Captions for Audio and Video
+Captions are time-synchronized text versions of the audio content in a video, displayed on-screen as the video plays. They are essential for deaf and hard-of-hearing viewers, useful for viewers watching without sound (in noisy or quiet environments), and beneficial for second-language learners and people with auditory processing difficulties.
+Important distinction: closed captions (CC) are a separate file that can be turned on/off; open captions are burned into the video image permanently. Most video platforms use closed captions.
+Subtitles: Text transcription of dialogue only; typically for language translation; do not include non-speech audio
+Captions: Text transcription of all audio, including speech, sound effects, and music descriptions (e.g., "[upbeat music]", "[door creaks]"); for accessibility for deaf/HoH users
+Audio Description (AD): A separate audio track describing visual content not conveyed through dialogue, for blind and low-vision viewers. "The detective enters the room and picks up a vase"
+10.3.3  Transcripts
+A transcript is a complete text version of all audio content, typically provided as a separate document. Unlike captions, transcripts are not synchronized with the media; users read them independently. Transcripts benefit deaf users, users in situations where they cannot play audio, users who prefer reading to listening, and search engines (which cannot index audio content).
+Accessibility Feature	Benefits	Required Format
+Alt text	Blind users (screen readers); images not loaded; SEO	Text attribute on <img>
+Closed captions	Deaf/HoH; noisy environments; language learners	VTT, SRT, TTML, SCC files
+Audio description	Blind/low vision users; people missing visual context	Separate audio track or extended AD version
+Transcript (audio)	Deaf users; search indexing; reference use	HTML page, linked PDF
+Transcript (video)	Deaf-blind users; browsing before viewing; search	Complete text of all speech and audio
+Keyboard nav	Motor disabilities; power users; no mouse situations	Focus order, ARIA landmarks, focus styles
+ARIA roles/labels	Screen reader context for interactive components	role, aria-label, aria-describedby attributes
+
+ 
+10.4  Accessible Video Production
+Accessibility should be considered at every stage of video production, not bolted on as an afterthought. Planning for captions, audio descriptions, and accessible players from the beginning is far more efficient than retrofitting them afterward.
+
+10.4.1  Checklist for Accessible Video
+•	Provide closed captions for all significant audio content, including speaker identification
+•	Provide audio descriptions for important visual content not conveyed in the dialogue
+•	Ensure sufficient color contrast for any text overlaid on video
+•	Avoid flashing content (more than 3 flashes per second triggers a WCAG warning)
+•	Provide a transcript (especially valuable for audio-only content like podcasts)
+•	Ensure the video player is keyboard accessible: play/pause, volume, and captions can all be controlled without a mouse
+•	Provide a text description of any video that contains complex visual information
+
+10.4.2  Accessible Images and Graphics
+•	All informative images must have descriptive alt text
+•	Complex images (charts, diagrams, infographics) need extended descriptions
+•	Color must not be the only means of conveying information (account for color blindness)
+•	Ensure sufficient contrast ratio: at least 4.5:1 for normal text; 3:1 for large text (WCAG AA)
+•	Decorative images should use empty alt text (alt="")
+
+10.4.3  Color Contrast
+Approximately 8% of men and 0.5% of women have some form of color vision deficiency (color blindness). The most common form is red-green color blindness, where users cannot distinguish red from green. Designers must never rely solely on color to convey information.
+WCAG COLOR CONTRAST REQUIREMENTS
+WCAG AA (standard level):
+  • Normal text (< 18pt): minimum contrast ratio of 4.5:1
+  • Large text (≥ 18pt or ≥ 14pt bold): minimum contrast ratio of 3:1
+  • UI components and graphical objects: minimum 3:1
+
+WCAG AAA (enhanced level):
+  • Normal text: minimum contrast ratio of 7:1
+  • Large text: minimum 4.5:1
+
+Calculate contrast ratio with tools: WebAIM Contrast Checker, browser DevTools,
+Figma contrast plugins, or the browser Accessibility Audit.
+
+White on pure red (#FF0000) = 4.0:1 — FAILS WCAG AA for normal text!
+White on dark red (#C0392B) = 4.6:1 — Passes WCAG AA.
+10.5  Inclusive Design Beyond Compliance
+Accessibility compliance (meeting WCAG AA) is a minimum standard, not a ceiling. Inclusive design goes further: it aims to create experiences that are genuinely welcoming and usable for the widest possible range of humans — not just those with clinical disabilities, but also people using devices in challenging conditions, people with temporary impairments, elderly users, young children, and people with varying literacy or digital fluency levels.
+Microsoft's Inclusive Design framework introduces the concept of the "exclusion audit": for any design, ask who is excluded and why. Often, designs created for one specific excluded group benefit many others (the "curb-cut effect" — ramps for wheelchair users also help parents with strollers, delivery workers with hand trucks, cyclists, and people with temporary leg injuries).
+
+Inclusive Design Strategy	Benefits	Examples
+Plain language	Cognitive disabilities; ESL users; low literacy; skimming	Short sentences; active voice; define jargon; bullet points
+Adjustable text size	Low vision; elderly; any user preference	Use relative font sizes (rem/em); avoid fixed pixel fonts
+Reduced motion option	Epilepsy; vestibular disorders; preference	CSS prefers-reduced-motion media query
+Dark mode / high contrast	Photosensitivity; low vision; night use	CSS prefers-color-scheme media query
+Keyboard navigation	Motor disability; power users; no-mouse situations	Logical focus order; visible focus indicators; skip links
+Responsive design	Mobile users; varying viewport sizes; zoom users	Flexible layouts; appropriate touch target sizes
+Error identification	Cognitive disabilities; all users	Clear error messages; suggest corrections; validation
+Consistent navigation	Cognitive disabilities; all first-time users	Same nav in same place across pages; breadcrumbs
+
+ 
+10.6  Emerging Technologies
+10.6.1  Artificial Intelligence in Multimedia
+Artificial intelligence is rapidly transforming every aspect of multimedia creation and delivery. AI models can now generate photorealistic images from text descriptions (DALL-E, Midjourney, Stable Diffusion), create music and audio (Suno, Udio, ElevenLabs), write scripts, animate faces and bodies (deepfakes), and upscale and restore old video with remarkable quality.
+These tools raise profound questions for the field: What is the role of human creativity when AI can generate competent media? How do we authenticate content when any image or video might be synthetic? What ethical constraints should govern AI-generated media involving real people?
+10.6.2  Extended Reality (XR)
+Extended Reality (XR) is an umbrella term encompassing Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR). These technologies are creating fundamentally new multimedia experiences:
+Virtual Reality (VR): Complete immersion in a computer-generated environment. Users wear a headset that replaces their entire visual and auditory field. Applications: gaming, training simulation, therapy, virtual tourism
+Augmented Reality (AR): Digital content overlaid on the real world, visible through a smartphone camera or transparent AR glasses. Applications: navigation, retail (try-on), industry (maintenance guides), gaming (Pokémon GO)
+Mixed Reality (MR): Digital objects anchored to and interacting with the real world. Digital objects cast shadows on real surfaces; can be blocked by real objects. Applications: collaboration, design, industrial training
+10.6.3  Immersive Audio
+Spatial audio technologies like Dolby Atmos, DTS:X, Sony 360 Reality Audio, and Apple Spatial Audio create three-dimensional sound fields where audio can be positioned at any point in a sphere around the listener. Combined with VR/AR visuals and head tracking (so sound appears to stay in position as the listener turns their head), spatial audio creates unprecedented levels of presence and immersion.
+10.6.4  The Web Platform's Expansion
+The web browser continues to gain capabilities that were previously only possible in native applications. WebXR enables VR and AR experiences directly in the browser. WebGPU provides near-native GPU performance for graphics and machine learning on the web. WebAssembly allows near-native speed execution of C++, Rust, and other languages, enabling professional-grade applications to run in browsers. Progressive Web Apps (PWAs) blur the line between web and native mobile apps.
+10.7  Key Takeaways
+This textbook has covered an enormous range of topics spanning the technical, perceptual, aesthetic, and ethical dimensions of digital multimedia. 
+A few fundamental themes connect them all:
+•	Digital representation: All multimedia — images, audio, video, text, animation — is ultimately binary data. Understanding how each type is represented as numbers unlocks the ability to work with it creatively and technically
+•	Compression is everywhere: The gap between raw data rates and practical storage/transmission capacity is bridged by compression algorithms that exploit the physics of signals and the psychology of human perception
+•	Color is perception, not physics: Color exists in the brain, not in objects or light. Color management, color models, and color design are all ultimately about working with human visual perception
+•	Design serves communication: Visual design, typography, layout, and motion all have one ultimate purpose: to communicate effectively and clearly to a specific audience
+•	Accessibility is inclusion: Designing for users with disabilities improves the experience for everyone. Inclusive design is both ethically right and practically beneficial
+•	Technology evolves; principles endure: Specific tools and formats change constantly. The fundamental principles of perception, communication, and design are stable over decades
+SUMMARY: THE MULTIMEDIA PROFESSIONAL'S TOOLKIT
+TECHNICAL SKILLS:
+  • Understanding of binary, sampling, quantization, and data compression
+  • Proficiency with image, audio, and video file formats and their tradeoffs
+  • Knowledge of color models (RGB, CMYK, Lab) and color management
+  • Understanding of the video pipeline from capture through delivery
+  • Familiarity with web standards: HTML5, CSS3, SVG, and multimedia APIs
+
+CREATIVE SKILLS:
+  • Visual design: hierarchy, Gestalt principles, grid systems, typography
+  • Color theory: schemes, emotional associations, cultural considerations
+  • Animation: 12 principles, keyframing, interpolation, motion design
+  • Audio: acoustics, recording, mixing, and psychoacoustic principles
+
+ETHICAL/PROFESSIONAL SKILLS:
+  • Accessibility: WCAG guidelines, alt text, captions, inclusive design
+  • Intellectual property awareness: copyright, fair use, licensing
+  • Understanding of AI in multimedia: capabilities, limitations, ethics
+Glossary
+The following glossary defines key terms used throughout this textbook.
+
+ADC (Analog-to-Digital Converter): Hardware that converts continuous analog signals into discrete digital data through sampling and quantization.
+Alpha Channel: An additional image channel that stores per-pixel transparency information (0 = transparent, 255 = opaque in 8-bit).
+Aliasing: Distortion artifacts caused by sampling a signal at too low a rate, manifesting as jagged edges in images or audio artifacts.
+Animation: The technique of creating the illusion of motion by displaying a rapid sequence of slightly different still images (frames).
+ASCII: American Standard Code for Information Interchange. A 7-bit character encoding representing 128 characters; the foundation of modern text encoding.
+Aspect Ratio: The proportional relationship between the width and height of an image or video frame (e.g., 16:9, 4:3).
+Bézier Curve: A parametric curve defined by anchor points and control points, widely used in vector graphics and animation interpolation.
+Bit Depth: The number of bits used to represent each sample value. Higher bit depth allows more levels and reduces quantization noise.
+Bitmap (Raster) Image: A digital image stored as a rectangular grid of pixels, each containing color information.
+Chroma Subsampling: Reducing the resolution of color channels relative to the luminance channel in video, exploiting the eye's lower color acuity.
+Codec: A software/hardware algorithm for encoding (compressing) and decoding (decompressing) digital media data.
+Color Gamut: The range of colors that a device can capture, display, or reproduce.
+Color Model: A mathematical description of colors using a set of numerical components (e.g., RGB, CMYK, HSV, Lab).
+Compositing: Combining multiple visual elements from different sources into a single coherent image using layering and transparency.
+Compression: Reducing the size of digital data by removing redundancy or exploiting perceptual limitations (lossless or lossy).
+DCT (Discrete Cosine Transform): A mathematical transform converting spatial data to frequency domain data, used in JPEG and MPEG compression.
+DPI (Dots Per Inch): A measure of printer dot density. Often confused with PPI (Pixels Per Inch) for screen images.
+Dynamic Range: The ratio between the maximum and minimum recordable or reproducible signal levels, usually expressed in decibels (dB).
+Frame Rate: The number of still frames displayed per second in video or animation (fps — frames per second).
+Gamut: See Color Gamut.
+Gestalt Principles: Perceptual psychology principles describing how humans naturally organize visual elements into unified wholes.
+GPU (Graphics Processing Unit): A specialized processor optimized for parallel processing of graphics and computational tasks.
+Hexadecimal: Base-16 number system using digits 0-9 and letters A-F; widely used to represent binary values compactly (e.g., #FF5733 for RGB color).
+HTML5: The fifth major version of the HyperText Markup Language; includes native multimedia elements (<video>, <audio>, <canvas>, <svg>).
+Hyperlink: A reference in a document that links to another location, document, or resource; the fundamental building block of hypermedia.
+ICC Profile: A data file describing the color characteristics of a device, used for consistent color reproduction across devices.
+Interpolation: Estimating values between known data points; used in animation to compute frames between keyframes.
+Keyframe: In animation, a frame where specific property values are manually set; the computer interpolates frames between keyframes.
+Lossless Compression: Compression that allows perfect reconstruction of the original data from the compressed version (e.g., PNG, FLAC, ZIP).
+Lossy Compression: Compression that permanently discards some data to achieve higher compression ratios (e.g., JPEG, MP3, H.264).
+MIDI: Musical Instrument Digital Interface. A protocol for transmitting musical performance data between electronic instruments and computers.
+NLE (Non-Linear Editor): Video editing software that allows random access to any clip on a timeline without destroying original media.
+Nyquist Theorem: States that a signal must be sampled at least twice the highest frequency present to be accurately reconstructed.
+OpenType: A modern font format (superset of TrueType/PostScript) supporting Unicode, advanced typographic features, and variable fonts.
+Pixel: The smallest addressable element in a raster image; a single colored dot in the rectangular grid.
+PPI (Pixels Per Inch): The spatial resolution of a digital image relative to a physical size; determines apparent sharpness when displayed or printed.
+Psychoacoustics: The study of how humans perceive sound, including masking effects exploited by lossy audio codecs.
+Rendering: The process of generating a 2D image from a 3D scene description or other model.
+RGB: Red, Green, Blue — the additive primary colors used for light-emitting displays; the standard color model for screen-based media.
+Sample Rate: The number of samples taken per second when digitizing an analog signal (e.g., 44,100 Hz for CD audio).
+Serif: Small finishing strokes at the ends of letterform strokes; typefaces with serifs are called "serif" typefaces.
+SVG: Scalable Vector Graphics — an XML-based vector image format for 2D graphics, widely supported in web browsers.
+Texture Mapping: Applying a 2D image to the surface of a 3D model to add visual detail.
+Unicode: A universal character encoding standard assigning code points to characters from all human writing systems.
+UTF-8: A variable-width character encoding for Unicode; backward-compatible with ASCII; the dominant encoding on the Web.
+Vector Graphics: Images described by mathematical geometric shapes (paths, curves, text) rather than pixel grids; infinitely scalable.
+WCAG: Web Content Accessibility Guidelines — international standards for making web content accessible to people with disabilities.
+YCbCr: A color model used in video separating luminance (Y) from two color-difference components (Cb, Cr); enables chroma subsampling.
+ 
+References and Further Reading
+•	Adobe Systems. (2021). Adobe Photoshop user guide. Adobe Inc.
+•	Berners-Lee, T., & Fischetti, M. (1999). Weaving the Web: The original design and ultimate destiny of the World Wide Web. HarperSanFrancisco.
+•	Blinn, J. F. (1978). Simulation of wrinkled surfaces. ACM SIGGRAPH Computer Graphics, 12(3), 286–292.
+•	Bringhurst, R. (2004). The elements of typographic style (3rd ed.). Hartley & Marks.
+•	Brown, T. (2011). More meaningful typography. A List Apart. https://alistapart.com/article/more-meaningful-typography/
+•	Chapman, N., & Chapman, J. (2009). Digital multimedia (3rd ed.). John Wiley & Sons.
+•	Engel, J., Berger, J., & Gibson, J. D. (2011). Signal processing: Discrete spectral analysis, detection, and estimation. Academic Press.
+•	Foley, J. D., van Dam, A., Feiner, S. K., & Hughes, J. F. (1990). Computer graphics: Principles and practice(2nd ed.). Addison-Wesley.
+•	Gonzalez, R. C., & Woods, R. E. (2018). Digital image processing (4th ed.). Pearson.
+•	Hartley, R., & Zisserman, A. (2004). Multiple view geometry in computer vision (2nd ed.). Cambridge University Press.
+•	Johnston, O., & Thomas, F. (1981). The illusion of life: Disney animation. Abbeville Press.
+•	Kubelka, P., & Munk, F. (1931). Ein Beitrag zur Optik der Farbanstriche. Zeitschrift für Technische Physik, 12, 593–601.
+•	Müller-Brockmann, J. (1996). Grid systems in graphic design. Niggli.
+•	Nelson, T. H. (1987). Computer lib/dream machines. Microsoft Press.
+•	Oppenheim, A. V., Schafer, R. W., & Buck, J. R. (1999). Discrete-time signal processing (2nd ed.). Prentice-Hall.
+•	Poynton, C. (2012). Digital video and HD: Algorithms and interfaces (2nd ed.). Morgan Kaufmann.
+•	Proakis, J. G., & Manolakis, D. G. (1996). Digital signal processing (3rd ed.). Prentice-Hall.
+•	Richardson, I. (2010). The H.264 advanced video compression standard (2nd ed.). John Wiley & Sons.
+•	Smith, A. R. (1978). Color gamut transform pairs. ACM SIGGRAPH Computer Graphics, 12(3), 12–19.
+•	W3C Web Accessibility Initiative. (2018). Web Content Accessibility Guidelines (WCAG) 2.1. https://www.w3.org/TR/WCAG21/
+•	Watt, A. (1999). 3D computer graphics (3rd ed.). Addison-Wesley.
+•	Wurman, R. S. (1989). Information anxiety. Doubleday.
+•	Zettl, H. (2013). Sight, sound, motion: Applied media aesthetics (7th ed.). Wadsworth/Cengage.
+
